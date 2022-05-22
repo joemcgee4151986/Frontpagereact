@@ -1,7 +1,7 @@
 import React from 'react';
 import './Style.css';
 
-export default function Sidebar() {
+export default function Article() {
  
     return (
 
@@ -23,9 +23,9 @@ export default function Sidebar() {
           <div className="contentsHeader">Contents</div>
           <ul>
             <li>
-              <span>1</span><a href="#">History</a>
+              <span>1</span><a href={"#"}>History</a>
               <ul>
-                <li><span>1.1</span><a href="#">Camel's hair pencil</a> </li>
+                <li><span>1.1</span><a href={"#"}>Camel's hair pencil</a> </li>
                 <li><span>1.2</span><a href="#">Discovery of graphite deposit</a> </li>
                 <li><span>1.3</span><a href="#">Wood holders added </a></li>
                 <li><span>1.4</span><a href="#">The pencil in America </a></li>
