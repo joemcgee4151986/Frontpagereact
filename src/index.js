@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+//import './index.css';
 import './Style.css';
-import App from './App';
+import Article from './Article';
+import Lavenderbox from './Lavenderbox';
+import Pagefooter from './Pagefooter';
+//import App from './App';
 import Sidebar from './Sidebar';
 import Mainsection from './Mainsection';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +16,11 @@ root.render(
   <React.StrictMode>
     <Mainsection />
     <Sidebar />
+    <Article />
+    <Lavenderbox />
+    <Pagefooter />
+    
+
     
 
   

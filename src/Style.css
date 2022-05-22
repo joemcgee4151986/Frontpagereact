@@ -10,7 +10,7 @@ html {
 body {
 	margin: 0;
 }
-article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+Article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
 	display: block;
 }
 audio,canvas,progress,video {
@@ -266,23 +266,23 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 0.5em;
 	padding-bottom: 0.17em;
 }
-.article h1 {
+.Article h1 {
 	font-family: 'Linux Libertine','Georgia','Times',serif;
 	border-bottom: 1px solid #a2a9b1;
 }
-.article h2 {
-	font-size: 1.6em;
+.Article h2 {
+	font-size: 2.6em;
 	margin: 0.5em 0 0.5em 0;
 	font-family: 'Linux Libertine','Georgia','Times',serif;
 	border-bottom: 1px solid #a2a9b1;
 	line-height: 1.4em;
 	padding-bottom: 0em;
 }
-.article h3 {
+.Article h3 {
 	font-weight: bold;
 	font-size: 1.2em;
 }
-.article p.roleNote {
+.Article p.roleNote {
 	padding: 1em 0 0 1.6em;
 	font-style: italic;
 }
@@ -315,13 +315,13 @@ a:hover {
 .wrapAll {
 	width: 100%.
 }
-.sidebar {
+.Sidebar {
 	float: left;
 	width: 9em;
 	padding: 3px 1.5em 10px 1.3em;
 	position: absolute;
 }
-.sidebar h3 {
+.Sidebar h3 {
 	font-size: 0.75em;
 	color: #4d4d4d;
 	font-weight: normal;
@@ -331,28 +331,28 @@ a:hover {
 	border: 0;
 	border-bottom: 1px solid #D8D8D8;
 }
-.sidebar li {
+.Sidebar li {
 	line-height: 1.125em;
 	margin: 0;
 	padding: 0.25em 0;
 	font-size: 0.75em;
 	word-wrap: break-word;
 }
-div.articleRight {
+div.ArticleRight {
 	border: 1px solid #c8ccd1;
 	padding: 3px;
 	float: right;
 	background-color: #f8f9fa;
 	font-size: 94%;
-	text-align: center;
+	text-align: left;
 	overflow: hidden;
 	line-height: 1.4em;
 	padding: 3px;
 	font-size: 94%;
 	margin: 0 0 5px 15px;
-	text-align: left;
+	text-align:center;
 }
-div.articleRightInner {
+div.ArticleRightInner {
 	border: 1px solid #c8ccd1;
 	padding: 3px;
 	background-color: #f8f9fa;
@@ -366,7 +366,7 @@ div.articleRightInner {
 .navigation {
 	padding: 0.15em 0 0 0.45em;
 }
-.mainsection {
+.Mainsection {
 	margin: 0 0 0 11em;
 }
 .headerLinks {
@@ -453,7 +453,7 @@ div.articleRightInner {
 	float: right;
 	line-height: 0;
 }
-.article {
+.Article {
 	padding: 1.25em 1.5em 1.5em 1.5em;
 	border-left: 1px solid #a7d7f9;
 	background: #FFF;
@@ -462,7 +462,7 @@ div.articleRightInner {
 	border-top: 1px solid #a7d7f9;
 	border-bottom: 1px solid #a7d7f9;
 }
-.article p {
+.Article p {
 	line-height: inherit;
 	margin: 0.5em 0;
 }
@@ -524,7 +524,7 @@ span.user {
 .minimizedPanel .contentsHeader {
 	text-align: left;
 }
-.lavenderBox {
+.Lavenderbox {
 	background: #fdfdfd;
 	border: 1px solid #a2a9b1;
 	clear: both;
@@ -534,7 +534,7 @@ span.user {
 	line-height: 1.7em;
 	margin: 1em auto 0;
 }
-.lavenderBox .header {
+.Lavenderbox .header {
 	background: #ccccff;
 	padding: 0.25em 1em;
 	line-height: 1.5em;
@@ -544,7 +544,7 @@ span.user {
 	font-size: 115%;
 	margin-bottom: 3px;
 }
-.lavenderBox .subtitle {
+.Lavenderbox .subtitle {
 	background: #ddddff;
 }
 .linklist a:after {
@@ -572,12 +572,12 @@ span.user {
 .categories a:last-child:after {
 	content: "";
 }
-.pagefooter {
+.Pagefooter {
 	padding: 1.5em 1.3em 2em;
 	font-size: 75%;
 	line-height: 2em;
 }
-.pagefooter a {
+.Pagefooter a {
 	display: inline-block;
 	margin-right: 1em;
 }
@@ -595,11 +595,11 @@ span.user {
 	}
 }
 @media screen and (max-width: 550px) {
-	.sidebar {
+	.Sidebar {
 		width: 6em;
 		padding: 3px 0.5em 10px 0.5em;
 	}
-	.mainsection {
+	.Mainsection {
 		margin: 0 0 0 7em;
 	}
 	.contentsPanel {

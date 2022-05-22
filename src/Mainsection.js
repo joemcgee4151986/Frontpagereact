@@ -5,7 +5,7 @@ import './Style.css';
 export default function Mainsection() {
       return (
   
-        <div className="mainsection">
+        <div className="Mainsection">
           <div className="headerLinks">
             <span className /> <a href="#">Talk</a> <a href="#">Contributions</a> <a href="#">Create account</a> <a href="#">Log in</a>
           </div>
