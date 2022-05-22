@@ -6,15 +6,11 @@ import './Style.css';
 export default function Sidebar() {
  
     return (
-
-     
-
-
 <body>
 <div className="wrapAll clearfix">
 <div className="Sidebar">
    <div className="logo">
-  <a href="/"><img src='./img/logo.png'></img></a>
+  <a href="/"><img src={require('./img/logo.png')} /></a>
 </div>
 <div class="navigation">
   <ul>
