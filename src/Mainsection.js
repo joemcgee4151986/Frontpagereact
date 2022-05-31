@@ -1,11 +1,26 @@
 import React from 'react';
 import './App.css';
+import axios from 'axios';
 
-
+const baseURL= "https://catfact.ninja/fact";
 export default function Mainsection() {
- 
+  const [post, setPost] = React.useState(null);
+    
 
-    return (
+ 
+    
+  
+      React.useEffect(() =>{
+        axios.get(baseURL).then((response) => {
+          setPost(response.data);
+        });
+      }, [])
+    
+      if (!post) return null;
+      return (
+        
+      
+    
       <div>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -71,8 +86,9 @@ export default function Mainsection() {
               </div>
             </div>
             {/*main section ends*/}
+            {/*Article section starts */}
             <div className="article">
-              <h1>Viruses</h1>
+              <h1>Random Cat Facts</h1>
               <p className="siteSub">From Wikipedia, the free encyclopedia</p>
               <p className="roleNote">This article is about the writing implement. For other uses, see Pencil (disambiguation).</p>
               <div className="articleRight">
@@ -81,10 +97,11 @@ export default function Mainsection() {
                 </div>
                 This is a blue <a href>pencil</a>
               </div>
-              <p>Lorem ipsum <strong>dolor sit amet</strong>, nonumes voluptatum mel ea, cu case ceteros cum. Novum commodo malorum vix ut. Dolores consequuntur in ius, sale electram dissentiunt quo te. Cu duo omnes invidunt, eos eu mucius fabellas. Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre urbanitas intellegam vix in.</p>
-              <p>Eum facete intellegat ei, ut mazim melius usu. Has elit simul primis ne, regione minimum id cum. Sea deleniti dissentiet ea. Illud mollis moderatius ut per, at qui ubique populo. Eum ad cibo legimus, vim ei quidam fastidii.</p>
-              <p>Quo debet vivendo ex. Qui ut admodum senserit partiendo. Id adipiscing disputando eam, sea id magna pertinax concludaturque. Ex ignota epicurei quo, his ex doctus delenit fabellas, erat timeam cotidieque sit in. Vel eu soleat voluptatibus, cum cu exerci mediocritatem. Malis legere at per, has brute putant animal et, in consul utamur usu.</p>
-              <p>Te has amet modo perfecto, te eum mucius conclusionemque, mel te erat deterruisset. Duo ceteros phaedrum id, ornatus postulant in sea. His at autem inani volutpat. Tollit possit in pri, platonem persecuti ad vix, vel nisl albucius gloriatur no.</p>
+              <div>
+              <p>{post.fact}</p>
+              </div>
+              
+        
               <div className="contentsPanel">
                 <div className="contentsHeader">Contents</div>
                 <ul>
@@ -116,6 +133,7 @@ export default function Mainsection() {
               <p>Te has amet modo perfecto, te eum mucius conclusionemque, mel te erat deterruisset. Duo ceteros phaedrum id, ornatus postulant in sea. His at autem inani volutpat. Tollit possit in pri, platonem persecuti ad vix, vel nisl albucius gloriatur no.</p>
               <h2>Sed rebum regione suscipit</h2>
               <p>Ea duo atqui incorrupte, sed rebum regione suscipit ex, mea ex dicant percipit referrentur. Dicat luptatum constituam vix ut. His vide platonem omittantur id, vel quis vocent an. Ad pro inani zril omnesque. Mollis forensibus sea an, vim habeo adipisci contentiones ad, tale autem graecis ne sit.</p>
+              {/*Article section ends*/}
               <div className="lavenderBox">
                 <div className="header">Panel title</div>
                 <div className="subtitle linklist"><a href="#">Lorem</a> <a href="#">Ipsum</a> <a href="#">Dolorestitas</a> </div>
@@ -137,5 +155,7 @@ export default function Mainsection() {
           </div>		
         </div>
       </div>
-    );
-  }
+      );
+}
+      
+    
