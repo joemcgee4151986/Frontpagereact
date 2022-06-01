@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import axios from 'axios';
 
-const baseURL= "https://catfact.ninja/fact";
+const baseURL= "https://api.nasa.gov/planetary/apod?api_key=0Bf8d0oEZxvsByGqAbysYJEMKLpotlsP8CezS3yF&date=";
 export default function Mainsection() {
   const [post, setPost] = React.useState(null);
     
@@ -30,7 +30,7 @@ export default function Mainsection() {
         <link rel="canonical" href="http://html5-templates.com/" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         {/* Place favicon.ico in the root directory */}
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="App.css" />
         {/*[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]*/}
@@ -42,9 +42,9 @@ export default function Mainsection() {
             </div>
             <div className="navigation">
               <ul>
-                <li><a href="#">Main page</a></li>
-                <li><a href="#">Contents</a></li>
-                <li><a href="#">Featured content</a></li>
+                <li><a href ="#Main Page">Main page</a></li>
+                <li><a href="Contents">Contents</a></li>
+                <li><a href="Featured content">Featured content</a></li>
               </ul>
               <h3>Interaction</h3>
               <ul>
@@ -88,7 +88,7 @@ export default function Mainsection() {
             {/*main section ends*/}
             {/*Article section starts */}
             <div className="article">
-              <h1>Random Cat Facts</h1>
+              <h1>Space facts</h1>
               <p className="siteSub">From Wikipedia, the free encyclopedia</p>
               <p className="roleNote">This article is about the writing implement. For other uses, see Pencil (disambiguation).</p>
               <div className="articleRight">
@@ -98,7 +98,7 @@ export default function Mainsection() {
                 This is a blue <a href>pencil</a>
               </div>
               <div>
-              <p>{post.fact}</p>
+              <p>{post.explanation}</p>
               </div>
               
         
