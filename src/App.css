@@ -65,6 +65,7 @@ sub {
 img {
 	border: 0;
 	max-width: 100%;
+	
 }
 svg:not(:root) {
 	overflow: hidden;
@@ -351,6 +352,7 @@ div.articleRight {
 	font-size: 94%;
 	margin: 0 0 5px 15px;
 	text-align: left;
+	
 }
 div.articleRightInner {
 	border: 1px solid #c8ccd1;
@@ -359,6 +361,11 @@ div.articleRightInner {
 	font-size: 94%;
 	text-align: center;
 	overflow: hidden;
+	width:200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 .logo {
 	margin-bottom: 20px;
