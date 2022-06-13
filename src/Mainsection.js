@@ -94,7 +94,7 @@ export default function Mainsection() {
               <p className="roleNote">This article is about the writing implement. For other uses, see Pencil (disambiguation).</p>
               <div className="articleRight">
                 <div className="articleRightInner">
-                  <img src="https://apod.nasa.gov/apod/image/2206/TauHerMeteors_Lyu_1080.jpg" alt="meteors" />
+                  <img src="https://thecatapi.com/api/images/get?format=src&type=gif" alt="meteors" />
                 </div>
                 <p>{post.title}</p>
               </div>
