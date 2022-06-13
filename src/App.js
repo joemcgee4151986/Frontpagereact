@@ -1,24 +1,40 @@
 import React from 'react';
-import axios from 'axios';
+
+
 import './App.css';
 
-const baseURL= "https://api.ipify.org?format=json";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
 
-export default function App() {
-  const [post, setPost] = React.useState(null);
+ 
+ 
+} from "react-router-dom";
+import Mainsection from './Mainsection';
+import Mainsectiontwo from './Mainsectiontwo';
 
-  React.useEffect(() =>{
-    axios.get(baseURL).then((response) => {
-      setPost(response.data);
-    });
-  }, []);
 
-  if (!post) return null;
+export default function BasicExample() {
   return (
-    <div>
-      <h1>{post.ip}</h1>
-      <p>{post.ip}</p>
-    </div>
-  );
-}
+    
+    <Router>
+      <div>
 
+        {/*
+          A <Switch> looks through all its children <Route>
+          elements and renders the first one whose path
+          matches the current URL. Use a <Switch> any time
+          you have multiple routes, but you want only one
+          of them to render at a time
+        */}
+        <Routes>
+        <Route path="/Mainsection" element={<Mainsection />} /> 
+        <Route path="/Mainsectiontwo" element={<Mainsectiontwo />} /> 
+          
+         
+        </Routes>
+      </div>
+    </Router>
+  );
+      }

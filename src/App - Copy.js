@@ -1,24 +1,72 @@
 import React from 'react';
+
+
 import './App.css';
-import axios from 'axios';
 
-
-const baseURL= "https://catfact.ninja/fact";
-export default function Mainsection() {
-  const [post, setPost] = React.useState(null);
-    
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
  
+ 
+} from "react-router-dom";
+import Mainsection from './Mainsection';
+import Mainsectiontwo from './Mainsectiontwo';
+
+
+export default function BasicExample() {
+  return (
     
-  
-      React.useEffect(() =>{
-        axios.get(baseURL).then((response) => {
-          setPost(response.data);
-        });
-      }, [])
-    
-      if (!post) return null;
-      return (
+    <Router>
+      <div>
+        <ul>
+          <li>
+            <Link to="./Mainsection">Mainsection</Link>
+          </li>
+          <li>
+            <Link to="./Mainsectiontwo">About</Link>
+          </li>
+          <li>
+            <Link to="/dashboard">Dashboard</Link>
+          </li>
+        </ul>
+
+        <hr />
+
+        {/*
+          A <Switch> looks through all its children <Route>
+          elements and renders the first one whose path
+          matches the current URL. Use a <Switch> any time
+          you have multiple routes, but you want only one
+          of them to render at a time
+        */}
+        <Routes>
+        <Route path="/Mainsection" element={<Mainsection />} /> 
+        <Route path="/Mainsectiontwo" element={<Mainsectiontwo />} /> 
+          
+         
+        </Routes>
+      </div>
+    </Router>
+  );
+}
+
+// You can think of these components as "pages"
+// in your app.
+
+function HomePage() {
+  return (
+    <div>
+      <h2>Home</h2>
+    </div>
+  );
+}
+
+function About() {
+  return (
+    <div>
+      <h2>About</h2>
       <div>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -28,7 +76,7 @@ export default function Mainsection() {
         <link rel="canonical" href="http://html5-templates.com/" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         {/* Place favicon.ico in the root directory */}
-        <link rel="stylesheet" href="App.css" />
+        <link rel="stylesheet" href="Apptwo.css" />
         {/*[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]*/}
@@ -40,22 +88,23 @@ export default function Mainsection() {
             </div>
             <div className="navigation">
               <ul>
-                
-                <li><a href ="#">Main page</a></li>
+             
                 <li><a href="Contents">Contents</a></li>
                 <li><a href="Featured content">Featured content</a></li>
               </ul>
               <h3>Interaction</h3>
               <ul>
                 <li><a href="#">Help</a></li>
-                <li><a href="#">About</a></li>
+                <body>
+                <li><a href ="#" >About</a></li>
+                </body>
                 <li><a href="#">Portal</a></li>
               </ul>
               <h3>Interaction</h3>
               <ul>
-                <li><a href="#">Help</a></li>
+                <li><a href="./index2.html">Help</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="./Mainsectiontwo" >Space facts 2</a></li>
+                <li><a href="#">Portal</a></li>
               </ul>
             </div>
           </div>
@@ -69,8 +118,7 @@ export default function Mainsection() {
               <div className="tabsLeft">
                 <ul>
                   <li><a href="#" className="active">Article</a></li>
-                  <li><a href="#">Contact</a></li>
-                  					
+                  <li><a href="#">Talk</a></li>						
                 </ul>
               </div>
               <div id="simpleSearch">
@@ -89,17 +137,17 @@ export default function Mainsection() {
             {/*main section ends*/}
             {/*Article section starts */}
             <div className="article">
-              <h1>nope</h1>
+              <h1>Space facts 2</h1>
               <p className="siteSub">From Wikipedia, the free encyclopedia</p>
               <p className="roleNote">This article is about the writing implement. For other uses, see Pencil (disambiguation).</p>
               <div className="articleRight">
                 <div className="articleRightInner">
                   <img src="https://apod.nasa.gov/apod/image/2206/TauHerMeteors_Lyu_1080.jpg" alt="meteors" />
                 </div>
-                <p>{post.title}</p>
+                {/*<p>{post.title}</p>*/}
               </div>
               <div>
-              <p>{post.fact}</p>
+             {/* <p>{post.explanation}</p>*/}
               </div>
               
         
@@ -157,7 +205,16 @@ export default function Mainsection() {
         </div>
       </div>
       );
-}
 
       
     
+
+    </div>
+  );
+}
+
+
+ 
+      
+    
+      
