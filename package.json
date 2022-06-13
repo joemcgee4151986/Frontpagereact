@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "&& echo /* /index.html 200 | cat >build/_redirects"
+    "build": "react-scripts build && cp public/index.html build/200.html"
     ,
     "test": "react-scripts test",
     "eject": "react-scripts eject"
