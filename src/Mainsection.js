@@ -55,7 +55,7 @@ export default function Mainsection() {
               <ul>
                 <li><a href="#">Help</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="./Mainsectiontwo" >Space facts 2</a></li>
+                <li><a href="Mainsectiontwo" >Space facts 2</a></li>
               </ul>
             </div>
           </div>
