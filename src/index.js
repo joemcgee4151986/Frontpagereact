@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import "./App.css";
 import './Apptwo.css';
 import App from './App';
-import Mainsection from './Mainsection';
+
 
 
 import reportWebVitals from './reportWebVitals';
@@ -15,7 +15,7 @@ root.render(
     
    
    <App/>
-   <Mainsection/>
+   
   
   </React.StrictMode>
 );
