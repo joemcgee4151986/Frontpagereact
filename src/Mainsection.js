@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import axios from 'axios';
 
-
+import { Outlet} from "react-router-dom";
 const baseURL= "https://catfact.ninja/fact";
 export default function Mainsection() {
   const [post, setPost] = React.useState(null);
@@ -41,7 +41,7 @@ export default function Mainsection() {
             <div className="navigation">
               <ul>
                 
-                <li><a href ="#">Main page</a></li>
+                {/*<li><a href ="#">Main page</a></li>
                 <li><a href="Contents">Contents</a></li>
                 <li><a href="Featured content">Featured content</a></li>
               </ul>
@@ -53,7 +53,7 @@ export default function Mainsection() {
               </ul>
               <h3>Interaction</h3>
               <ul>
-                <li><a href="#">Help</a></li>
+      <li><a href="#">Help</a></li>*/}
                 <li><a href="#">About</a></li>
                 <li><a href="Mainsectiontwo" >Space facts 2</a></li>
               </ul>
@@ -151,6 +151,7 @@ export default function Mainsection() {
               This page was last edited on 29.07.2017 | Template by <a href="http://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a> {/* Please leave this link unchanged */}
               <div className="footerlinks">
                 <a href="#">Privacy policy</a> <a href="#">About</a> <a href="#">Terms and conditions</a> <a href="#">Cookie statement</a> <a href="#">Developers</a>
+                <Outlet />
               </div>
             </div>
           </div>		

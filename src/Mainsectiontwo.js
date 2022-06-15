@@ -2,6 +2,7 @@ import React from 'react';
 import './Apptwo.css';
 import axios from 'axios';
 
+import { Outlet} from "react-router-dom";
 
 const baseURL= "https://api.nasa.gov/planetary/apod?api_key=0Bf8d0oEZxvsByGqAbysYJEMKLpotlsP8CezS3yF&date=";
 export default function Mainsectiontwo() {
@@ -154,6 +155,7 @@ export default function Mainsectiontwo() {
               This page was last edited on 29.07.2017 | Template by <a href="http://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a> {/* Please leave this link unchanged */}
               <div className="footerlinks">
                 <a href="#">Privacy policy</a> <a href="#">About</a> <a href="#">Terms and conditions</a> <a href="#">Cookie statement</a> <a href="#">Developers</a>
+                <Outlet />
               </div>
             </div>
           </div>		
