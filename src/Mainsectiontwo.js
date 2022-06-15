@@ -43,9 +43,9 @@ export default function Mainsectiontwo() {
               <a href="/"><img src alt="" /></a>
             </div>
             <div className="navigation">
-              <ul>
+              {/*<ul>}
              
-                <li><a href="Contents">Contents</a></li>
+               <li><a href="Contents">Contents</a></li>
                 <li><a href="Featured content">Featured content</a></li>
               </ul>
               <h3>Interaction</h3>
@@ -57,10 +57,11 @@ export default function Mainsectiontwo() {
                 <li><a href="#">Portal</a></li>
               </ul>
               <h3>Interaction</h3>
+      */}
               <ul>
+              <li><a href="./About">About</a></li>
                 <li><a href="./Mainsection">Mainsection</a></li>
-                <li><a href="./About">About</a></li>
-                <li><a href="#">Portal</a></li>
+                {/*<li><a href="#">Portal</a></li>*/}
               </ul>
             </div>
           </div>
