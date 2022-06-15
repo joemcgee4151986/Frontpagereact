@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Mainsection from './Mainsection';
 import Mainsectiontwo from './Mainsectiontwo';
-
+import About from './About';
 
 export default function App() {
   return (
@@ -24,7 +24,7 @@ export default function App() {
       
         <Route  path="/Mainsection" element={<Mainsection />} /> 
         <Route  path="/Mainsectiontwo" element={<Mainsectiontwo />} /> 
-        
+        <Route  path="/About" element={<About/>} /> 
         </Routes>
         
       </div>

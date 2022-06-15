@@ -59,7 +59,7 @@ export default function Mainsectiontwo() {
               <h3>Interaction</h3>
               <ul>
                 <li><a href="./Mainsection">Mainsection</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="./About">About</a></li>
                 <li><a href="#">Portal</a></li>
               </ul>
             </div>
