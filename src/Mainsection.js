@@ -54,7 +54,7 @@ export default function Mainsection() {
               <h3>Interaction</h3>
               <ul>
       <li><a href="#">Help</a></li>*/}
-                <li><a href="#">About</a></li>
+                <li><a href="./About">About</a></li>
                 <li><a href="Mainsectiontwo" >Space facts 2</a></li>
               </ul>
             </div>
