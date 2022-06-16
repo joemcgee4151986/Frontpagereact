@@ -15,6 +15,7 @@ root.render(
  
     
     <Sidebar/>
+  
     <App/>
    
     
