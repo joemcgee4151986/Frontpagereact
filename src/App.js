@@ -24,7 +24,7 @@ export default function App() {
         <Routes>
       
         <Route  path="/Mainsection" element={<Mainsection />} /> 
-        <Route  path="/Sidebar" element={<Sidebar />} /> 
+        <Route  path="/pages/sidebar/Sidebar" element={<Sidebar />} /> 
         <Route  path="/Mainsectiontwo" element={<Mainsectiontwo />} /> 
         <Route  path="/About" element={<About/>} /> 
         </Routes>
