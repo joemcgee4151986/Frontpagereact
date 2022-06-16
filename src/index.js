@@ -14,10 +14,14 @@ root.render(
     
  
     
-   <App/>
-   <Sidebar/>
-   <About/>
-   <Mainsection/>
+    <Sidebar/>
+    <App/>
+   
+    
+ 
+
+ 
+  
   
     
  
