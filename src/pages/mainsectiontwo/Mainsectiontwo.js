@@ -1,5 +1,5 @@
 import React from 'react';
-import './Apptwo.css';
+import './App.module.css';
 import axios from 'axios';
 
 import { Outlet} from "react-router-dom";
@@ -60,7 +60,7 @@ export default function Mainsectiontwo() {
       */}
               <ul>
               <li><a href="./About">About</a></li>
-                <li><a href="./Mainsection">Mainsection</a></li>
+                <li><a href="./pages/mainsection/Mainsection">Mainsection</a></li>
                 {/*<li><a href="#">Portal</a></li>*/}
               </ul>
             </div>

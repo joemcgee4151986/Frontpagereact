@@ -1,23 +1,14 @@
 import React from 'react';
-import "./Sidebarvisual.module.css";
-export default function Sidebar() {
+import Sidebarvisualstyles from'./Sidebarvisual.module.css';
+export default function Sidebarvisual() {
     return (
-        <div>
-        <meta charSet="utf-8" />
-        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <title>Wikipedia Template</title>
-        <meta name="description" content />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="http://html5-templates.com/" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        {/* Place favicon.ico in the root directory */}
-        <link rel="stylesheet" href="Sidebarvisual.module.css" />
-    <div className="wrapAll clearfix">
-          <div className="sidebar">
+      <div>
+    <div className={Sidebarvisualstyles.wrapAllclearfix}>
+          <div className={Sidebarvisualstyles.sidebar}>
             <div className="logo">
               <a href="/"><img src alt="" /></a>
             </div>
-            <div className="navigation">
+            <div className={Sidebarvisualstyles.navigation}>
               <ul>
                 
                 {/*<li><a href ="#">Main page</a></li>
@@ -39,6 +30,6 @@ export default function Sidebar() {
             </div>
           </div>
           </div>
-          </div>
+      </div>
           );
           }

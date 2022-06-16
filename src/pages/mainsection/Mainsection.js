@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import Appstyles from './App.module.css';
 import axios from 'axios';
 
 import { Outlet} from "react-router-dom";
@@ -36,7 +36,7 @@ export default function Mainsection() {
         
           {/*sidebar ends*/}
           {/*main section*/}
-          <div className="mainsection">
+          <div className={Appstyles.mainsection}>
             <div className="headerLinks">
               <span className /> <a href="#">Talk</a> <a href="#">Contributions</a> <a href="#">Create account</a> <a href="#">Log in</a>
             </div>

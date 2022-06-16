@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
+import Sidebar from "./pages/sidebar/Sidebar";
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-import Mainsection from './Mainsection';
-import Mainsectiontwo from './Mainsectiontwo';
+import Mainsection from './pages/mainsection/Mainsection';
+import Mainsectiontwo from './pages/mainsectiontwo/Mainsectiontwo';
 import About from './About';
-import Sidebar from './pages/sidebar/Sidebar';
+
 
 export default function App() {
   return (
@@ -23,10 +24,10 @@ export default function App() {
         */}
         <Routes>
       
-        <Route  path="/Mainsection" element={<Mainsection />} /> 
-        <Route  path="/pages/sidebar/Sidebar" element={<Sidebar />} /> 
-        <Route  path="/Mainsectiontwo" element={<Mainsectiontwo />} /> 
+        <Route  path="./pages/mainsection/Mainsection" element={<Mainsection />} /> 
+        <Route  path="./pages/mainsectiontwo/Mainsectiontwo" element={<Mainsectiontwo />} /> 
         <Route  path="/About" element={<About/>} /> 
+        <Route  path="./pages/sidebar/sidebar" element={<Sidebar />} /> 
         </Routes>
         
       </div>
