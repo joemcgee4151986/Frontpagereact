@@ -13,7 +13,9 @@ import About from './pages/about/About';
 
 export default function App() {
   return (
+   
     <Router>
+      
       <div>
         {/*
           A <Routes> looks through all its children <Route>
@@ -24,9 +26,9 @@ export default function App() {
         */}
         <Routes>
         <Route  path="Mainsection" element={<Mainsection />} /> 
-        <Route  path="Mainsectiontwo" element={<Mainsectiontwo />} /> 
-        <Route  path="Sidebar" element={<Sidebar />} /> 
-        <Route  path="About" element={<About/>} /> 
+        <Route  path="Mainsectiontwo/" element={<Mainsectiontwo />} /> 
+        <Route  path="Sidebar/" element={<Sidebar />} /> 
+        <Route  path="About/" element={<About/>} /> 
         </Routes>
         
       </div>

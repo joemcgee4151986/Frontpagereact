@@ -1,5 +1,6 @@
 import React from 'react';
 import Sidebarvisualstyles from'./Sidebarvisual.module.css';
+
 export default function Sidebarvisual() {
     return (
       <div>
@@ -24,7 +25,7 @@ export default function Sidebarvisual() {
               <h3>Interaction</h3>
               <ul>
       <li><a href="#">Help</a></li>*/}
-                <li><a href={"./src/About"}>About</a></li>
+                <li><a href={"About"}>About</a></li>
                 <li><a href={"./src/pages/mainsection/Mainsection"}>Mainsection</a></li>
                 <li><a href={"./src/pages/mainsectiontwo/Mainsectiontwo"}>Space facts 2</a></li>
               </ul>
