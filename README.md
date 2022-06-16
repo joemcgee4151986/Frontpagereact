@@ -1,3 +1,5 @@
+# Removing the folder files from App.js and uploading it online will properly display the website. Do not add the code and upload as it will cause it to display all the webpages into one.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
