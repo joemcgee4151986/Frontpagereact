@@ -5,7 +5,7 @@ export default function Sidebarvisual() {
       <div>
     <div className={Sidebarvisualstyles.wrapAllclearfix}>
           <div className={Sidebarvisualstyles.sidebar}>
-            <div className="logo">
+            <div className={Sidebarvisualstyles.logo}>
               <a href="/"><img src alt="" /></a>
             </div>
             <div className={Sidebarvisualstyles.navigation}>
@@ -24,8 +24,9 @@ export default function Sidebarvisual() {
               <h3>Interaction</h3>
               <ul>
       <li><a href="#">Help</a></li>*/}
-                <li><a href="./About">About</a></li>
-                <li><a href="Mainsectiontwo" >Space facts 2</a></li>
+                <li><a href={"./src/About"}>About</a></li>
+                <li><a href={"./src/pages/mainsection/Mainsection"}>Mainsection</a></li>
+                <li><a href={"./src/pages/mainsectiontwo/Mainsectiontwo"}>Space facts 2</a></li>
               </ul>
             </div>
           </div>

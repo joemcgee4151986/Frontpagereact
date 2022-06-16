@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.module.css';
+import Appstyles from'./App.module.css';
 import axios from 'axios';
 
 import { Outlet} from "react-router-dom";
@@ -32,7 +32,7 @@ export default function Mainsectiontwo() {
         <link rel="canonical" href="http://html5-templates.com/" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         {/* Place favicon.ico in the root directory */}
-        <link rel="stylesheet" href="Apptwo.css" />
+        <link rel="stylesheet" />
         {/*[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]*/}
@@ -58,16 +58,10 @@ export default function Mainsectiontwo() {
               </ul>
               <h3>Interaction</h3>
       */}
-              <ul>
-              <li><a href="./About">About</a></li>
-                <li><a href="./pages/mainsection/Mainsection">Mainsection</a></li>
-                {/*<li><a href="#">Portal</a></li>*/}
-              </ul>
-            </div>
-          </div>
+             
           {/*sidebar ends*/}
           {/*main section*/}
-          <div className="mainsection">
+          <div className={Appstyles.mainsection}>
             <div className="headerLinks">
               <span className /> <a href="#">Talk</a> <a href="#">Contributions</a> <a href="#">Create account</a> <a href="#">Log in</a>
             </div>
@@ -161,6 +155,8 @@ export default function Mainsectiontwo() {
             </div>
           </div>		
         </div>
+      </div>
+      </div>
       </div>
       );
 }

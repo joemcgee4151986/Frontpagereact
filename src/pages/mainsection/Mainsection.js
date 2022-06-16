@@ -20,15 +20,7 @@ export default function Mainsection() {
       if (!post) return null;
       return (
       <div>
-        <meta charSet="utf-8" />
-        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <title>Wikipedia Template</title>
-        <meta name="description" content />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="http://html5-templates.com/" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        {/* Place favicon.ico in the root directory */}
-        <link rel="stylesheet" href="App.css" />
+    
         {/*[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]*/}

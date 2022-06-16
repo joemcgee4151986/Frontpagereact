@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Sidebar from "./pages/sidebar/Sidebar";
 import {
   BrowserRouter as Router,
   Routes,
@@ -8,7 +7,8 @@ import {
 } from "react-router-dom";
 import Mainsection from './pages/mainsection/Mainsection';
 import Mainsectiontwo from './pages/mainsectiontwo/Mainsectiontwo';
-import About from './About';
+import Sidebar from "./pages/sidebar/Sidebar";
+import About from './pages/about/About';
 
 
 export default function App() {
@@ -23,11 +23,10 @@ export default function App() {
           of them to render at a time
         */}
         <Routes>
-      
-        <Route  path="./pages/mainsection/Mainsection" element={<Mainsection />} /> 
-        <Route  path="./pages/mainsectiontwo/Mainsectiontwo" element={<Mainsectiontwo />} /> 
-        <Route  path="/About" element={<About/>} /> 
-        <Route  path="./pages/sidebar/sidebar" element={<Sidebar />} /> 
+        <Route  path="Mainsection" element={<Mainsection />} /> 
+        <Route  path="Mainsectiontwo" element={<Mainsectiontwo />} /> 
+        <Route  path="Sidebar" element={<Sidebar />} /> 
+        <Route  path="About" element={<About/>} /> 
         </Routes>
         
       </div>
