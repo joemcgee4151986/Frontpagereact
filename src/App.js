@@ -8,6 +8,7 @@ import {
 import Mainsection from './Mainsection';
 import Mainsectiontwo from './Mainsectiontwo';
 import About from './About';
+import Sidebar from './pages/sidebar/Sidebar';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Routes>
       
         <Route  path="/Mainsection" element={<Mainsection />} /> 
+        <Route  path="/Sidebar" element={<Sidebar />} /> 
         <Route  path="/Mainsectiontwo" element={<Mainsectiontwo />} /> 
         <Route  path="/About" element={<About/>} /> 
         </Routes>

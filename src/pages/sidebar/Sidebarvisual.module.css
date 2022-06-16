@@ -1,0 +1,58 @@
+@font-face {
+	font-family: "Linux Libertine";
+	src: url("fonts/LinLibertine_RZ.woff") format('woff');
+}
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+	display: block;
+}
+.wrapAll {
+	width: 100%;
+
+}
+.sidebar{
+	bottom:30em;
+	float: left;
+	width: 9em;
+	padding: 3px 1.5em 10px 1.3em;
+	position: relative;
+}
+.sidebar h3 {
+	font-size: 0.75em;
+	color: #4d4d4d;
+	font-weight: normal;
+	margin: 0.5em 0 0 0;
+	padding: 0.25em 0;
+	cursor: default;
+	border: 0;
+	border-bottom: 1px solid #D8D8D8;
+}
+.sidebar li {
+	line-height: 1.125em;
+	margin: 0;
+	padding: 0.25em 0;
+	font-size: 0.75em;
+	word-wrap: break-word;
+}
+.navigation {
+	padding: 0.15em 0 0 0.45em;
+}
+
+@media screen and (max-width: 550px) {
+	.sidebar {
+		width: 6em;
+		padding: 3px 0.5em 10px 0.5em;
+	}
+}
+
+.clearfix:before,.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
