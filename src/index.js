@@ -5,14 +5,14 @@ import "./Sidebarvisual.module.css";
 import './Apptwo.css';
 import App from './App';
 
-import Sidebar from './pages/sidebar/Sidebar';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <App/>
-      <Sidebar/>
+      
     
 
   
