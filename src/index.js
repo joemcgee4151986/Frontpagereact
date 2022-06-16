@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom/client';
 import Sidebar from "./pages/sidebar/Sidebar";
 
 import App from './App';
-
+import Mainsection from'./pages/mainsection/Mainsection';
+import Mainsectiontwo from'./pages/mainsectiontwo/Mainsectiontwo';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,7 +13,8 @@ root.render(
   <React.StrictMode>
      <Sidebar/>
       <App/>
-     
+      <Mainsection/>
+      <Mainsectiontwo/>
  
     
       
