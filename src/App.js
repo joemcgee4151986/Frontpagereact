@@ -9,6 +9,7 @@ import Mainsection from './pages/mainsection/Mainsection';
 import Mainsectiontwo from './pages/mainsectiontwo/Mainsectiontwo';
 import Sidebar from "./pages/sidebar/Sidebar";
 import About from './pages/about/About';
+import Sidebarvisual from './pages/sidebar/Sidebar';
 
 
 
@@ -26,9 +27,11 @@ export default function App() {
           of them to render at a time
         */}
         <Routes>
-        <Route  path="/Sidebar" element={<Sidebar />} /> 
-        <Route  path="/Mainsection" element={<Mainsection />} /> 
-        <Route  path="/Mainsectiontwo" element={<Mainsectiontwo />} /> 
+          <Route element ={<Sidebarvisual/>}>
+        <Route  path="/Sidebar" element={<Sidebar />} />
+        <Route  path="/Mainsection" element={<Mainsection />} />
+        <Route  path="/Mainsectiontwo" element={<Mainsectiontwo />} />
+          </Route>
         <Route  path="/About" element={<About/>} /> 
         </Routes>
         
