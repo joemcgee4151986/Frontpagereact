@@ -27,13 +27,12 @@ export default function App() {
           of them to render at a time
         */}
         <Routes>
-        
-        <Route element={<Sidebarvisual/>}>
+   
         <Route  path="/Mainsection" element={<Mainsection />} />
         <Route  path="/Mainsectiontwo" element={<Mainsectiontwo />} />
         
         <Route  path="/Sidebar" element={<Sidebar />} />
-        </Route>
+    
         <Route  path="/About" element={<About/>} /> 
         </Routes>
         
