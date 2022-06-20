@@ -13,12 +13,11 @@ root.render(
   <React.StrictMode>
     
  
-    
+
     <Sidebar/>
-  
     <App/>
-   
   
+    
     
     </React.StrictMode>
 

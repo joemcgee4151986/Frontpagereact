@@ -10,7 +10,9 @@ export default function Sidebarvisual() {
             <div className="logo">
               <a href="/"><img src alt="" /></a>
             </div>
-            <div className="navigation">
+    
+              
+            
               <ul>
                 
                 {/*<li><a href ="#">Main page</a></li>
@@ -34,6 +36,11 @@ export default function Sidebarvisual() {
             </div>
           </div>
           </div>
-      </div>
+         
+
+     
+    
+     
+      
           );
           }
