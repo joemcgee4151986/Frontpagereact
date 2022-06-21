@@ -15,19 +15,19 @@ export default function Sidebarvisual() {
             
               <ul>
                 
-                {/*<li><a href ="#">Main page</a></li>
+                {/*<li><a href ="/">Main page</a></li>
                 <li><a href="Contents">Contents</a></li>
                 <li><a href="Featured content">Featured content</a></li>
               </ul>
               <h3>Interaction</h3>
               <ul>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portal</a></li>
+                <li><a href="/">Help</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Portal</a></li>
               </ul>
               <h3>Interaction</h3>
               <ul>
-      <li><a href="#">Help</a></li>*/}
+      <li><a href="/">Help</a></li>*/}
       
                 <li><a href="./About">About</a></li>
                 <li><a href="./Mainsection">Mainsection</a></li>
