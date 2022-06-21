@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from 'axios';
+
 
 export default function About() {
     return (
@@ -18,13 +18,13 @@ export default function About() {
           {/*main section*/}
           <div className="mainsection">
             <div className="headerLinks">
-              <span className /> <a href="#">Talk</a> <a href="#">Contributions</a> <a href="#">Create account</a> <a href="#">Log in</a>
+              <span className /> <a href="/">Talk</a> <a href="/">Contributions</a> <a href="/">Create account</a> <a href="/">Log in</a>
             </div>
             <div className="tabs clearfix">
               <div className="tabsLeft">
                 <ul>
-                  <li><a href="#" className="active">Article</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="/" className="active">Article</a></li>
+                  <li><a href="/">Contact</a></li>
                   					
                 </ul>
               </div>
@@ -35,9 +35,9 @@ export default function About() {
               </div>
               <div className="tabsRight">
                 <ul>
-                  <li><a href="#" className="active">Read</a></li>
-                  <li><a href="#">View source</a></li>						
-                  <li><a href="#">View history</a></li>						
+                  <li><a href="/" className="active">Read</a></li>
+                  <li><a href="/">View source</a></li>						
+                  <li><a href="/">View history</a></li>						
                 </ul>
               </div>
             </div>
@@ -45,11 +45,10 @@ export default function About() {
             {/*Article section starts */}
             <div className="article">
              
-              
-              <div className="articleRight">
-                <div className="articleRightInner">
-                  <img src="https://thecatapi.com/api/images/get?format=src&type=gif" alt="picture" />
-                </div>
+            <div className="articleRight">
+             
+ 
+               
                 {/*<p>{post.title}</p>*/}
               </div>
               <div>
@@ -73,26 +72,28 @@ export default function About() {
               {/*Article section ends*/}
               <div className="lavenderBox">
                 <div className="header">Panel title</div>
-                <div className="subtitle linklist"><a href="#">Lorem</a> <a href="#">Ipsum</a> <a href="#">Dolorestitas</a> </div>
+                <div className="subtitle linklist"><a href="/">Lorem</a> <a href="/">Ipsum</a> <a href="/">Dolorestitas</a> </div>
                 <div className="linklist">
-                  <a href="#">Percipit </a> <a href="#">Mnesarchum </a> <a href="#">Molestie </a> <a href="#">Phaedrum </a> <a href="#">Luptatum constituam </a> <a href="#">Habeo adipisci </a> <a href="#">Inani zril</a> <a href="#">Forensibus sea </a> <a href="#">Habeo adipisci </a> <a href="#">Minimum corrumpit </a> <a href="#">Regione suscipit </a> <a href="#">Has et partem </a><a href="#">Percipit </a> <a href="#">Mnesarchum </a> <a href="#">Molestie </a> <a href="#">Phaedrum </a> <a href="#">Luptatum constituam </a> <a href="#">Habeo adipisci </a> <a href="#">Inani zril</a> <a href="#">Vel nisl albucius </a> <a href="#">Habeo adipisci </a> <a href="#">Minimum corrumpit </a> <a href="#">Regione suscipit </a> <a href="#">Percipit maiestatis </a> <a href="#">Regione suscipit </a> <a href="#">Percipit maiestatis </a>
+                  <a href="/">Percipit </a> <a href="/">Mnesarchum </a> <a href="/">Molestie </a> <a href="/">Phaedrum </a> <a href="/">Luptatum constituam </a> <a href="/">Habeo adipisci </a> <a href="/">Inani zril</a> <a href="/">Forensibus sea </a> <a href="/">Habeo adipisci </a> <a href="/">Minimum corrumpit </a> <a href="/">Regione suscipit </a> <a href="/">Has et partem </a><a href="/">Percipit </a> <a href="/">Mnesarchum </a> <a href="/">Molestie </a> <a href="/">Phaedrum </a> <a href="/">Luptatum constituam </a> <a href="/">Habeo adipisci </a> <a href="/">Inani zril</a> <a href="/">Vel nisl albucius </a> <a href="/">Habeo adipisci </a> <a href="/">Minimum corrumpit </a> <a href="/">Regione suscipit </a> <a href="/">Percipit maiestatis </a> <a href="/">Regione suscipit </a> <a href="/">Percipit maiestatis </a>
                 </div>
                 <div className="subtitle">Subtitle</div>
               </div>
               <div className="categories">
-                <a href="#">Minimum corrumpit </a> <a href="#">Regione suscipit </a> <a href="#">Has et partem </a>
+                <a href="/">Minimum corrumpit </a> <a href="/">Regione suscipit </a> <a href="/">Has et partem </a>
               </div>
             </div>
             <div className="pagefooter">
-              This page was last edited on 29.07.2017 | Template by <a href="http://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a> {/* Please leave this link unchanged */}
+              This page was last edited on 29.07.2017 | Template by <a href="/http://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a> {/* Please leave this link unchanged */}
               <div className="footerlinks">
-                <a href="#">Privacy policy</a> <a href="#">About</a> <a href="#">Terms and conditions</a> <a href="#">Cookie statement</a> <a href="#">Developers</a>
+                <a href="/">Privacy policy</a> <a href="/">About</a> <a href="/">Terms and conditions</a> <a href="/">Cookie statement</a> <a href="/">Developers</a>
                
               </div>
-            </div>
-          </div>		
+              </div>
+              </div>
+       
+         	</div>
 
- </div>
+
     
       );
 }
