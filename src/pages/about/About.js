@@ -83,7 +83,7 @@ export default function About() {
               </div>
             </div>
             <div className="pagefooter">
-             Template by <a href="/http://html5-templates.com/" target="_blank" rel="noopener noreferrer">HTML5 Templates</a> {/* Please leave this link unchanged */}
+             Template by <a href="/https://html5-templates.com/" target="_blank" rel="noopener noreferrer">HTML5 Templates</a> {/* Please leave this link unchanged */}
               <div className="footerlinks">
                 
                
