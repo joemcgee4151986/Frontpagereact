@@ -3,7 +3,7 @@ import './mainsection.css';
 import axios from 'axios';
 
 import { Outlet} from "react-router-dom";
-const baseURL= "https://desolate-sea-33600.herokuapp.com/";
+const baseURL= "https://catfact.ninja/fact";
 export default function Mainsection() {
   const [post, setPost] = React.useState(null);
     
