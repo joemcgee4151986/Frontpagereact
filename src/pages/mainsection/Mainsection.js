@@ -1,9 +1,9 @@
 import React from 'react';
-import './mainsection.css';
+import styles from './mainsection.module.css';
 import axios from 'axios';
 
 import { Outlet} from "react-router-dom";
-const baseURL= "https://desolate-sea-33600.herokuapp.com/";
+const baseURL= "https://catfact.ninja/fact";
 export default function Mainsection() {
   const [post, setPost] = React.useState(null);
     
@@ -28,35 +28,36 @@ export default function Mainsection() {
         
           {/*sidebar ends*/}
           {/*main section*/}
-          <div className="mainsection">
-            <div className="headerLinks">
-              <span className /> <a href="/">Talk</a> <a href="/">Contributions</a> <a href="/">Create account</a> <a href="/">Log in</a>
+          <div className={styles.mainsection}>
+            <div className={styles.headerLinks}>
+            {/*  <span className /> <a href="/">Talk</a> <a href="/">Contributions</a> <a href="/">Create account</a> <a href="/">Log in</a>*/}
             </div>
-            <div className="tabs clearfix">
-              <div className="tabsLeft">
+            <div className={`${styles.tabs} ${styles.clearfix}`}>
+              <div className={styles.tabsLeft}>
                 <ul>
-                  <li><a href="/" className="active">Article</a></li>
-                  <li><a href="/">Contact</a></li>
+                  {/*<li><a href="/" className={styles.active}>Article</a></li>
+                  <li><a href="/">Contact</a></li>*/}
                   					
                 </ul>
               </div>
-              <div id="simpleSearch">
+              {/*<div id="simpleSearch">
                 <input type="text" name="searchInput" id="searchInput" placeholder="Search Wikipedia" size={12} />
                 <div id="submitSearch" />
                 
               </div>
-              <div className="tabsRight">
+                */}
+              <div className={styles.tabsRight}>
                 <ul>
-                  <li><a href="/" className="active">Read</a></li>
+                  {/*sidebar<li><a href="/" className="active">Read</a></li>
                   <li><a href="/">View source</a></li>						
-                  <li><a href="/">View history</a></li>						
+      <li><a href="/">View history</a></li>		*/}				
                 </ul>
               </div>
             </div>
             {/*main section ends*/}
             {/*Article section starts */}
-            <div className="article">
-              <h1  contentEditable= "true" className="title">Virus</h1>
+            <div className={styles.article}>
+              <h1 className="title">Virus</h1>
               <p className="siteSub">From Wikipedia, the free encyclopedia</p>
               <p className="roleNote">This article is about the writing implement. For other uses, see Pencil (disambiguation).</p>
               <div className="articleRight">
