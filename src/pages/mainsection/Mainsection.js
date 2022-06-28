@@ -3,7 +3,7 @@ import styles from './mainsection.module.css';
 import axios from 'axios';
 
 import { Outlet} from "react-router-dom";
-const baseURL= "https://catfact.ninja/fact";
+const baseURL= "https://bible-api.com/John+3:16?translation=bbe";
 export default function Mainsection() {
   const [post, setPost] = React.useState(null);
     
@@ -57,17 +57,17 @@ export default function Mainsection() {
             {/*main section ends*/}
             {/*Article section starts */}
             <div className={styles.article}>
-              <h1 className="title">Virus</h1>
+              <h1 className={styles.title}>Virus</h1>
               <p className="siteSub">From Wikipedia, the free encyclopedia</p>
               <p className="roleNote">This article is about the writing implement. For other uses, see Pencil (disambiguation).</p>
-              <div className="articleRight">
+           <div className="articleRight">
                 <div className="articleRightInner">
                   {/*<img src="https://thecatapi.com/api/images/get?format=src&type=gif" alt="meteors" />*/}
                 </div>
-                <p>{post.title}</p>
+                <p>{post.reference}</p>
               </div>
               <div>
-              <p>{post.fact}</p>
+              <p>{post.text}</p>
               </div>
               
         
@@ -91,19 +91,8 @@ export default function Mainsection() {
                   <li><span>4</span><a href="/">Grading and classification</a></li>
                 </ul>
               </div>
-              <h2>Paulo eirmod intellegam</h2>
-              <h3>Percipit maiestatis sea eu</h3>
-              <p>Ex quod meis per, ea paulo eirmod intellegam usu, eam te propriae fabellas. Nobis graecis has at, an eum audire impetus. Ius epicuri verterem ex, qui cu solet feugiat consetetur. Placerat apeirian et sea, nec wisi viderer definiebas ex, at eum oratio honestatis.</p>
-              <p>Eum illum nulla graeci at, mea quis munere indoctum at. In sea partiendo hendrerit. Quaestio partiendo an eam, rebum vitae accumsan ius id. Duo at causae option.</p>
-              <p>At persius imperdiet vis, ea elit atqui aperiri mei, percipit maiestatis sea eu. Has et partem hendrerit, vim cibo veniam aliquid an. No pri populo abhorreant, everti mandamus ne mea. Debitis forensibus suscipiantur ius cu. Ei per possim verterem, et iudico voluptatum eos.</p>
-              <h3>Nam option recusabo</h3>
-              <p>Te mel meis adhuc. Choro percipit mei eu, fabulas fuisset tibique ad sea, cu eos sint falli iracundia. Usu ex minimum corrumpit, postea dolores salutandi ne est, cu nam option recusabo reprehendunt. Prima vocibus argumentum ex usu. Nam te legere salutatus dissentiunt, his ei principes prodesset, est possit blandit ex.</p>
-              <p>Pro no rebum timeam necessitatibus, et mnesarchum quaerendum has. Duo molestie interesset at. Vel ad legere populo. Sed ne saepe doming perpetua. Omnis iuvaret volumus an duo, qui duis audiam fabellas in.</p>
-              <p>Te has amet modo perfecto, te eum mucius conclusionemque, mel te erat deterruisset. Duo ceteros phaedrum id, ornatus postulant in sea. His at autem inani volutpat. Tollit possit in pri, platonem persecuti ad vix, vel nisl albucius gloriatur no.</p>
-              <h2>Sed rebum regione suscipit</h2>
-              <p>Ea duo atqui incorrupte, sed rebum regione suscipit ex, mea ex dicant percipit referrentur. Dicat luptatum constituam vix ut. His vide platonem omittantur id, vel quis vocent an. Ad pro inani zril omnesque. Mollis forensibus sea an, vim habeo adipisci contentiones ad, tale autem graecis ne sit.</p>
-              {/*Article section ends*/}
-              <div className="lavenderBox">
+              
+             {/* <div className="lavenderBox">
                 <div className="header">Panel title</div>
                 <div className="subtitle linklist"><a href="/">Lorem</a> <a href="/">Ipsum</a> <a href="/">Dolorestitas</a> </div>
                 <div className="linklist">
@@ -111,22 +100,24 @@ export default function Mainsection() {
                 </div>
                 <div className="subtitle">Subtitle</div>
               </div>
-              <div className="categories">
-                <a href="/">Minimum corrumpit </a> <a href="/">Regione suscipit </a> <a href="/">Has et partem </a>
-              </div>
-            </div>
+              <div className="categories">/*}
+    <a href="/">Minimum corrumpit </a> <a href="/">Regione suscipit </a> <a href="/">Has et partem </a>*/}
+            
+        
             <div className="pagefooter">
-              This page was last edited on 29.07.2017 | Template by <a href={"https://html5-templates.com/"} target="_blank" rel="noopener noreferrer">HTML5 Templates</a> {/* Please leave this link unchanged */}
-              <div className="footerlinks">
-                <a href="/">Privacy policy</a> <a href="/">About</a> <a href="/">Terms and conditions</a> <a href="/">Cookie statement</a> <a href="/">Developers</a>
+               Template by <a href={"https://html5-templates.com/"} target="_blank" rel="noopener noreferrer">HTML5 Templates</a> {/* Please leave this link unchanged */}
+              {/*<div className="footerlinks">
+                <a href="/">Privacy policy</a> <a href="/">About</a> <a href="/">Terms and conditions</a> <a href="/">Cookie statement</a> <a href="/">Developers</a>*/}
                 <Outlet />
-              </div>
+           
+           </div>
+           </div>
             </div>
-          </div>		
-        </div>
-  
+            </div>
+          
       
-      );
+      
+      );  
 }
 
       
