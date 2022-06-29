@@ -3,7 +3,7 @@ import styles from './mainsection.module.css';
 import axios from 'axios';
 
 import { Outlet} from "react-router-dom";
-const baseURL= "https://bible-api.com/John+3:16?translation=bbe";
+const baseURL= "http://desolate-sea-33600.herokuapp.com/users/first";
 export default function Mainsection() {
   const [post, setPost] = React.useState(null);
     
@@ -57,17 +57,17 @@ export default function Mainsection() {
             {/*main section ends*/}
             {/*Article section starts */}
             <div className={styles.article}>
-              <h1 className={styles.title}>Virus</h1>
+              <h1 className={styles.title}>{post.au_fname}</h1>
               <p className="siteSub">From Wikipedia, the free encyclopedia</p>
               <p className="roleNote">This article is about the writing implement. For other uses, see Pencil (disambiguation).</p>
            <div className="articleRight">
                 <div className="articleRightInner">
                   {/*<img src="https://thecatapi.com/api/images/get?format=src&type=gif" alt="meteors" />*/}
                 </div>
-                <p>{post.reference}</p>
+                <p>{post.au_fname}</p>
               </div>
               <div>
-              <p>{post.text}</p>
+              <p>{post.au_id}</p>
               </div>
               
         
