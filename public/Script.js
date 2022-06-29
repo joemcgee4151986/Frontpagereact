@@ -23,7 +23,7 @@
 
 // Place any jQuery/helper plugins in here.
 
-$(document).ready(function(){
+/*$(document).ready(function(){
 	$(".contentsPanel").each(function() {                
 		$(this).prepend('<div class="hidePanel">[hide]</div><div class="showPanel">[show]</div>');
 	});
@@ -42,5 +42,5 @@ $(document).ready(function(){
 	
 	
 });
-
+*/
 
