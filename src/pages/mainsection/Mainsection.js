@@ -104,7 +104,7 @@ export default function Mainsection() {
     <a href="/">Minimum corrumpit </a> <a href="/">Regione suscipit </a> <a href="/">Has et partem </a>*/}
             
         
-            <div className="pagefooter">
+            {/*<div className="pagefooter">
                Template by <a href={"https://html5-templates.com/"} target="_blank" rel="noopener noreferrer">HTML5 Templates</a> {/* Please leave this link unchanged */}
               {/*<div className="footerlinks">
                 <a href="/">Privacy policy</a> <a href="/">About</a> <a href="/">Terms and conditions</a> <a href="/">Cookie statement</a> <a href="/">Developers</a>*/}
@@ -113,7 +113,7 @@ export default function Mainsection() {
            </div>
            </div>
             </div>
-            </div>
+          
           
       
       
