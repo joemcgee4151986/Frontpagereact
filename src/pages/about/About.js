@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 export default function About() {
     return (
         
@@ -58,8 +57,7 @@ export default function About() {
         
               
               <h2>Joseph McGee</h2>
-              <h3>Percipit maiestatis sea eu</h3>
-              <p>While I'm not programming, I like to relax, exercise, and play video games when my son is sleeping.</p>
+              <p>While I'm not programming, I like to relax, exercise, and play video games when my son is sleeping. You can find my projects <a href="https://github.com/joemcgee4151986" target="_blank" rel="noreferrer">here.</a></p>
               {/*<p>Eum illum nulla graeci at, mea quis munere indoctum at. In sea partiendo hendrerit. Quaestio partiendo an eam, rebum vitae accumsan ius id. Duo at causae option.</p>
               <p>At persius imperdiet vis, ea elit atqui aperiri mei, percipit maiestatis sea eu. Has et partem hendrerit, vim cibo veniam aliquid an. No pri populo abhorreant, everti mandamus ne mea. Debitis forensibus suscipiantur ius cu. Ei per possim verterem, et iudico voluptatum eos.</p>
               <h3>Nam option recusabo</h3>

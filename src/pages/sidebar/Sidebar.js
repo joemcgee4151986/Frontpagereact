@@ -31,7 +31,7 @@ export default function Sidebarvisual() {
       
                 <li><a href="./About">About</a></li>
                 <li><a href="./Mainsection">Mainsection</a></li>
-                <li><a href="./Mainsectiontwo">Space facts 2</a></li>
+                <li><a href="./Mainsectiontwo">Virus</a></li>
               </ul>
             </div>
           </div>

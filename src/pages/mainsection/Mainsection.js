@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './mainsection.module.css';
 import axios from 'axios';
-
+import { HashLink } from 'react-router-hash-link';
 import { Outlet} from "react-router-dom";
 const baseURL= "https://desolate-sea-33600.herokuapp.com/users/first";
 export default function Mainsection() {
@@ -67,7 +67,7 @@ export default function Mainsection() {
                 <p>{post.au_fname}</p>
               </div>
               <div>
-              <p>{post.au_id}</p>
+              <p id = "information">{post.au_id}</p>
               </div>
               
         
@@ -77,7 +77,7 @@ export default function Mainsection() {
                   <li>
                     <span>1</span><a href="/">History</a>
                     <ul>
-                      <li><span>1.1</span><a href="/">Camel's hair pencil</a> </li>
+                      <li><span>1.1</span><HashLink smooth to="#information">First</HashLink> </li>
                       <li><span>1.2</span><a href="/">Discovery of graphite deposit</a> </li>
                       <li><span>1.3</span><a href="/">Wood holders added </a></li>
                       <li><span>1.4</span><a href="/">The pencil in America </a></li>

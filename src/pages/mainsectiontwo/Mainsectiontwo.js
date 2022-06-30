@@ -1,5 +1,5 @@
 import React from 'react';
-import './mainsectiontwo.css';
+import styles from './mainsectiontwo.module.css';
 import axios from 'axios';
 
 import { Outlet} from "react-router-dom";
@@ -28,29 +28,32 @@ export default function Mainsection() {
         
           {/*sidebar ends*/}
           {/*main section*/}
-          <div className="mainsection">
-            <div className="headerLinks">
-              <span className /> <a href="/">Talk</a> <a href="/">Contributions</a> <a href="/">Create account</a> <a href="/">Log in</a>
+          <div className={styles.mainsection}>
+          <div className={styles.headerLinks}>
+          {/*  <span className /> <a href="/">Talk</a> <a href="/">Contributions</a> <a href="/">Create account</a> <a href="/">Log in</a>*/}
             </div>
-            <div className="tabs clearfix">
+            <div className={`${styles.tabs} ${styles.clearfix}`}>
               <div className="tabsLeft">
-                <ul>
-                  <li><a href="/" className="active">Article</a></li>
-                  <li><a href="/">Contact</a></li>
+              <ul>
+                  {/*<li><a href="/" className={styles.active}>Article</a></li>
+                  <li><a href="/">Contact</a></li>*/}
                   					
                 </ul>
               </div>
-              <div id="simpleSearch">
+              {/*<div id="simpleSearch">
                 <input type="text" name="searchInput" id="searchInput" placeholder="Search Wikipedia" size={12} />
                 <div id="submitSearch" />
                 
               </div>
-              <div className="tabsRight">
+                */}
+              <div className={styles.tabsRight}>
+                {/*
                 <ul>
                   <li><a href="/" className="active">Read</a></li>
                   <li><a href="/">View source</a></li>						
                   <li><a href="/">View history</a></li>						
                 </ul>
+              */}
               </div>
             </div>
             {/*main section ends*/}
@@ -61,9 +64,9 @@ export default function Mainsection() {
               <p className="roleNote">This article is about the writing implement. For other uses, see Pencil (disambiguation).</p>
               <div className="articleRight">
                 <div className="articleRightInner">
-                  {/*<img src="https://thecatapi.com/api/images/get?format=src&type=gif" alt="meteors" />*/}
+                  <img src="https://res.cloudinary.com/dtpgi0zck/image/upload/s--7UXxoGoz--/c_fill,h_580,w_860/v1/EducationHub/photos/virus.webp" alt="meteors" />
                 </div>
-                <p>{post.title}</p>
+                <p>Sample virus</p>
               </div>
               <div>
               <p>{post.fact}</p>
@@ -90,6 +93,7 @@ export default function Mainsection() {
                   <li><span>4</span><a href="/">Grading and classification</a></li>
                 </ul>
               </div>
+              {/*
               <h2>Paulo eirmod intellegam</h2>
               <h3>Percipit maiestatis sea eu</h3>
               <p>Ex quod meis per, ea paulo eirmod intellegam usu, eam te propriae fabellas. Nobis graecis has at, an eum audire impetus. Ius epicuri verterem ex, qui cu solet feugiat consetetur. Placerat apeirian et sea, nec wisi viderer definiebas ex, at eum oratio honestatis.</p>
@@ -100,9 +104,9 @@ export default function Mainsection() {
               <p>Pro no rebum timeam necessitatibus, et mnesarchum quaerendum has. Duo molestie interesset at. Vel ad legere populo. Sed ne saepe doming perpetua. Omnis iuvaret volumus an duo, qui duis audiam fabellas in.</p>
               <p>Te has amet modo perfecto, te eum mucius conclusionemque, mel te erat deterruisset. Duo ceteros phaedrum id, ornatus postulant in sea. His at autem inani volutpat. Tollit possit in pri, platonem persecuti ad vix, vel nisl albucius gloriatur no.</p>
               <h2>Sed rebum regione suscipit</h2>
-              <p>Ea duo atqui incorrupte, sed rebum regione suscipit ex, mea ex dicant percipit referrentur. Dicat luptatum constituam vix ut. His vide platonem omittantur id, vel quis vocent an. Ad pro inani zril omnesque. Mollis forensibus sea an, vim habeo adipisci contentiones ad, tale autem graecis ne sit.</p>
+              <p>Ea duo atqui incorrupte, sed rebum regione suscipit ex, mea ex dicant percipit referrentur. Dicat luptatum constituam vix ut. His vide platonem omittantur id, vel quis vocent an. Ad pro inani zril omnesque. Mollis forensibus sea an, vim habeo adipisci contentiones ad, tale autem graecis ne sit.</p>/*}
               {/*Article section ends*/}
-              <div className="lavenderBox">
+             {/* <div className="lavenderBox">
                 <div className="header">Panel title</div>
                 <div className="subtitle linklist"><a href="/">Lorem</a> <a href="/">Ipsum</a> <a href="/">Dolorestitas</a> </div>
                 <div className="linklist">
@@ -113,16 +117,18 @@ export default function Mainsection() {
               <div className="categories">
                 <a href="/">Minimum corrumpit </a> <a href="/">Regione suscipit </a> <a href="/">Has et partem </a>
               </div>
-            </div>
-            <div className="pagefooter">
-              This page was last edited on 29.07.2017 | Template by <a href="https://html5-templates.com/" target="_blank" rel="noopener noreferrer">HTML5 Templates</a> {/* Please leave this link unchanged */}
+      </div> */}
+            {/*<div className="pagefooter">
+              This page was last edited on 29.07.2017 | Template by <a href="https://html5-templates.com/" target="_blank" rel="noopener noreferrer">HTML5 Templates</a> {/* Please leave this link unchanged 
               <div className="footerlinks">
-                <a href="/">Privacy policy</a> <a href="/">About</a> <a href="/">Terms and conditions</a> <a href="/">Cookie statement</a> <a href="/">Developers</a>
-                <Outlet />
-              </div>
-            </div>
-          </div>		
-        </div>
+      <a href="/">Privacy policy</a> <a href="/">About</a> <a href="/">Terms and conditions</a> <a href="/">Cookie statement</a> <a href="/">Developers</a>*/}
+              <Outlet/>
+               </div>
+               </div>
+               </div>
+             
+            
+        
   
       
       );
