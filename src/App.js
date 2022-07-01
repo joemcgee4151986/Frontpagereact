@@ -3,7 +3,8 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
+  Navigate
 } from "react-router-dom";
 import Mainsection from './pages/mainsection/Mainsection';
 import Mainsectiontwo from './pages/mainsectiontwo/Mainsectiontwo';
@@ -28,6 +29,7 @@ export default function App() {
         <Route  path="/About" element={<About/>} /> 
         <Route  path="/Sidebar" element={<Sidebar />} /> 
         <Route  path="/Home" element={<Home />} /> 
+        <Route component={() => <Navigate to="https://frontpagereact.pages.dev/Home" />} />
         </Routes>
         
       </div>
