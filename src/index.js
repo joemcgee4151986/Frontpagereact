@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import App from './App';
-import Home from './pages/home/Home';
+
 import Sidebar from "./pages/sidebar/Sidebar";
-import Mainsection from './pages/mainsection/Mainsection';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,9 +12,9 @@ root.render(
   <React.StrictMode>
     
     <Sidebar/>
-    <Home/>
+  
   <App/>
-   
+ 
   
     
     
