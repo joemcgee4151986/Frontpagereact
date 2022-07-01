@@ -9,7 +9,7 @@ import Mainsection from './pages/mainsection/Mainsection';
 import Mainsectiontwo from './pages/mainsectiontwo/Mainsectiontwo';
 import About from "./pages/about/About";
 import Sidebar from './pages/sidebar/Sidebar';
-
+import Home from './pages/home/Home';
 export default function App() {
   return (
     <Router>
@@ -27,6 +27,7 @@ export default function App() {
         <Route  path="/Mainsectiontwo" element={<Mainsectiontwo />} /> 
         <Route  path="/About" element={<About/>} /> 
         <Route  path="/Sidebar" element={<Sidebar />} /> 
+        <Route  path="/Home" element={<Home />} /> 
         </Routes>
         
       </div>
