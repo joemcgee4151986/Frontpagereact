@@ -7,15 +7,17 @@ import Mainsectiontwo from'./pages/mainsectiontwo/Mainsectiontwo';
 import Sidebar from "./pages/sidebar/Sidebar";
 import About from "./pages/about/About";
 import reportWebVitals from './reportWebVitals';
-
+import Home from './pages/home/Home';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
-  
+    
     <Sidebar/>
     <App/>
-
+   
+  
+    
     
     
     </React.StrictMode>
