@@ -23,13 +23,13 @@ export default function App() {
           of them to render at a time
         */}
         <Routes>
-        <Route component={() => <Navigate to="https://frontpagereact.pages.dev/Home" />} />
+      
         <Route  path="/Mainsection" element={<Mainsection />} /> 
         <Route  path="/Mainsectiontwo" element={<Mainsectiontwo />} /> 
         <Route  path="/About" element={<About/>} /> 
         <Route  path="/Sidebar" element={<Sidebar />} /> 
         <Route  path="/Home" element={<Home />} /> 
-       
+        <Route component={() => <Navigate to="https://frontpagereact.pages.dev/Home" />} />
         </Routes>
         
       </div>
