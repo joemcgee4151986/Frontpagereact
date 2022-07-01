@@ -1,10 +1,9 @@
 import React from 'react';
 import styles from './home.module.css';
 
-import { HashLink } from 'react-router-hash-link';
-import { Outlet} from "react-router-dom";
 
-export default function Mainsection() {
+
+export default function Home() {
  
       return (
       <div>
@@ -65,7 +64,7 @@ export default function Mainsection() {
                   <li>
                     <span>1</span><a href="/">History</a>
                     <ul>
-                      <li><span>1.1</span><HashLink smooth to="#information">First</HashLink> </li>
+                    
                       <li><span>1.2</span><a href="/">Discovery of graphite deposit</a> </li>
                       <li><span>1.3</span><a href="/">Wood holders added </a></li>
                       <li><span>1.4</span><a href="/">The pencil in America </a></li>
@@ -96,7 +95,7 @@ export default function Mainsection() {
                Template by <a href={"https://html5-templates.com/"} target="_blank" rel="noopener noreferrer">HTML5 Templates</a> {/* Please leave this link unchanged */}
               {/*<div className="footerlinks">
                 <a href="/">Privacy policy</a> <a href="/">About</a> <a href="/">Terms and conditions</a> <a href="/">Cookie statement</a> <a href="/">Developers</a>*/}
-                <Outlet />
+              
            
            </div>
            </div>
