@@ -28,7 +28,7 @@ export default function Sidebarvisual() {
               <h3>Interaction</h3>
               <ul>
       <li><a href="/">Help</a></li>*/}
-                <li><a href = "./Home">Home</a></li>
+                <li><a href = ".">Home</a></li>
                 <li><a href="./About">About</a></li>
                 <li><a href="./Mainsection">Mainsection</a></li>
                 <li><a href="./Mainsectiontwo">Virus</a></li>
