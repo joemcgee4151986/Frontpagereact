@@ -62,7 +62,7 @@ export default function Mainsection() {
               <p className="roleNote">This article is about the writing implement. For other uses, see Pencil (disambiguation).</p>
            <div className="articleRight">
                 <div className="articleRightInner">
-                  {/*<img src="https://thecatapi.com/api/images/get?format=src&type=gif" alt="meteors" />*/}
+                  <img src="https://res.cloudinary.com/dtpgi0zck/image/upload/s--7UXxoGoz--/c_fill,h_580,w_860/v1/EducationHub/photos/virus.webp" alt="meteors" />
                 </div>
                 <p>{post.au_fname}</p>
               </div>

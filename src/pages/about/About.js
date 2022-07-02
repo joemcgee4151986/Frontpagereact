@@ -1,59 +1,45 @@
 import React from 'react';
-
+import styles from './about.module.css';
 export default function About() {
     return (
-        
-           
- 
-   
-      <div>
-    
-        {/*[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]*/}
-        {/*sidebar starts*/}
-        
-          {/*sidebar ends*/}
-          {/*main section*/}
-          <div className="mainsection">
-            <div className="headerLinks">
-              <span className /> <a href="/">Talk</a> <a href="/">Contributions</a> <a href="/">Create account</a> <a href="/">Log in</a>
-            </div>
-            <div className="tabs clearfix">
-              <div className="tabsLeft">
-                <ul>
-                  <li><a href="/" className="active">Article</a></li>
-                  <li><a href="/">Contact</a></li>
-                  					
-                </ul>
+        <div>
+      
+          {/*[if lt IE 8]>
+              <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+          <![endif]*/}
+          {/*sidebar starts*/}
+          
+            {/*sidebar ends*/}
+            {/*main section*/}
+            <div className={styles.mainsection}>
+              <div className={styles.headerLinks}>
+              {/*  <span className /> <a href="/">Talk</a> <a href="/">Contributions</a> <a href="/">Create account</a> <a href="/">Log in</a>*/}
               </div>
-              <div id="simpleSearch">
-                <input type="text" name="searchInput" id="searchInput" placeholder="Search Wikipedia" size={12} />
-                <div id="submitSearch" />
-                
+              <div className={`${styles.tabs} ${styles.clearfix}`}>
+                <div className={styles.tabsLeft}>
+                  <ul>
+                    {/*<li><a href="/" className={styles.active}>Article</a></li>
+                    <li><a href="/">Contact</a></li>*/}
+                              
+                  </ul>
+                </div>
+                {/*<div id="simpleSearch">
+                  <input type="text" name="searchInput" id="searchInput" placeholder="Search Wikipedia" size={12} />
+                  <div id="submitSearch" />
+                  
+                </div>
+                  */}
+                <div className={styles.tabsRight}>
+                  <ul>
+                    {/*sidebar<li><a href="/" className="active">Read</a></li>
+                    <li><a href="/">View source</a></li>						
+        <li><a href="/">View history</a></li>		*/}				
+                  </ul>
+                </div>
               </div>
-              <div className="tabsRight">
-                <ul>
-                  <li><a href="/" className="active">Read</a></li>
-                  <li><a href="/">View source</a></li>						
-                  <li><a href="/">View history</a></li>						
-                </ul>
-              </div>
-            </div>
-            {/*main section ends*/}
-            {/*Article section starts */}
-            <div className="article">
-             
-            <div className="articleRight">
-             
- 
-               
-                {/*<p>{post.title}</p>*/}
-              </div>
-              <div>
-            {/*  <p>{post.fact}</p>}*/}
-              </div>
-              
+              {/*main section ends*/}
+              {/*Article section starts */}
+              <div className={styles.article}>
         
               
               <h2>Joseph McGee</h2>
@@ -68,28 +54,14 @@ export default function About() {
               <h2>Michael McGee</h2>
       <p>Ea duo atqui incorrupte, sed rebum regione suscipit ex, mea ex dicant percipit referrentur. Dicat luptatum constituam vix ut. His vide platonem omittantur id, vel quis vocent an. Ad pro inani zril omnesque. Mollis forensibus sea an, vim habeo adipisci contentiones ad, tale autem graecis ne sit.</p>
               {/*Article section ends*/}
-              <div className="lavenderBox">
-                <div className="header">Panel title</div>
-                <div className="subtitle linklist"><a href="/">Lorem</a> <a href="/">Ipsum</a> <a href="/">Dolorestitas</a> </div>
-                <div className="linklist">
-                  <a href="/">Percipit </a> <a href="/">Mnesarchum </a> <a href="/">Molestie </a> <a href="/">Phaedrum </a> <a href="/">Luptatum constituam </a> <a href="/">Habeo adipisci </a> <a href="/">Inani zril</a> <a href="/">Forensibus sea </a> <a href="/">Habeo adipisci </a> <a href="/">Minimum corrumpit </a> <a href="/">Regione suscipit </a> <a href="/">Has et partem </a><a href="/">Percipit </a> <a href="/">Mnesarchum </a> <a href="/">Molestie </a> <a href="/">Phaedrum </a> <a href="/">Luptatum constituam </a> <a href="/">Habeo adipisci </a> <a href="/">Inani zril</a> <a href="/">Vel nisl albucius </a> <a href="/">Habeo adipisci </a> <a href="/">Minimum corrumpit </a> <a href="/">Regione suscipit </a> <a href="/">Percipit maiestatis </a> <a href="/">Regione suscipit </a> <a href="/">Percipit maiestatis </a>
-                </div>
-                <div className="subtitle">Subtitle</div>
-              </div>
-              <div className="categories">
-                <a href="/">Minimum corrumpit </a> <a href="/">Regione suscipit </a> <a href="/">Has et partem </a>
-              </div>
-            </div>
-            <div className="pagefooter">
-             Template by <a href="https://html5-templates.com/" target="_blank" rel="noopener noreferrer">HTML5 Templates</a> {/* Please leave this link unchanged */}
-              <div className="footerlinks">
-                
+             
                
               </div>
               </div>
-              </div>
-       
-         	</div>
+            </div>
+          
+     
+     
 
 
     
