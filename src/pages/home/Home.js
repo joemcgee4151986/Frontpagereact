@@ -43,7 +43,7 @@ export default function Home() {
             {/*Article section starts */}
             <div className={styles.article}>
            
-              <h1>Welcome to Virus Wiki!</h1>
+              <h1>Welcome to VirusWiki!</h1>
               <p className={styles.siteSub}></p>
               <p className={styles.roleNote}>
 Welcome to the VirusWiki database. VirusWiki is a free wiki resource that lets you learn about viruses. I hope you will be able to
