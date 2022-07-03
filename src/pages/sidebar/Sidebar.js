@@ -8,11 +8,8 @@ export default function Sidebarvisual() {
             <div className="logo">
               <a href="/"><img src alt="" /></a>
             </div>
-    
-              
-            
               <ul>
-                
+                {/*commented out code is left here so I don't want to readd the code from memory in the future if I do decide to use it.*/}
                 {/*<li><a href ="/">Main page</a></li>
                 <li><a href="Contents">Contents</a></li>
                 <li><a href="Featured content">Featured content</a></li>

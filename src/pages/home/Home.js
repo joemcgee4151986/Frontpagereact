@@ -5,7 +5,7 @@ export default function Home() {
  
       return (
       <div>
-    
+    {/*commented out code is left here so I don't want to readd the code from memory in the future if I do decide to use it.*/}
         {/*[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]*/}

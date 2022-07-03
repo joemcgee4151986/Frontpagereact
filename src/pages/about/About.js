@@ -55,7 +55,7 @@ export default function About() {
       <p>Ea duo atqui incorrupte, sed rebum regione suscipit ex, mea ex dicant percipit referrentur. Dicat luptatum constituam vix ut. His vide platonem omittantur id, vel quis vocent an. Ad pro inani zril omnesque. Mollis forensibus sea an, vim habeo adipisci contentiones ad, tale autem graecis ne sit.</p>
               {/*Article section ends*/}
              
-               
+               {/*commented out code is left here so I don't want to readd the code from memory in the future if I do decide to use it.*/}
               </div>
               </div>
             </div>

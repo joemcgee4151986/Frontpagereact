@@ -15,6 +15,7 @@ export default function App() {
   return (
     <Router>
       <div>
+        {/*commented out code is left here so I don't want to readd the code from memory in the future if I do decide to use it.*/}
         {/*
           A <Routes> looks through all its children <Route>
           elements and renders the first one whose path
