@@ -7,10 +7,6 @@ const baseURL= "https://desolate-sea-33600.herokuapp.com/users/first";
 export default function Mainsection() {
   const [post, setPost] = React.useState(null);
     
-
- 
-    
-  
       React.useEffect(() =>{
         axios.get(baseURL).then((response) => {
           setPost(response.data);

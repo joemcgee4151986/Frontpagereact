@@ -1,16 +1,12 @@
 import React from 'react';
 import styles from './mainsectiontwo.module.css';
 import axios from 'axios';
-
 import { Outlet} from "react-router-dom";
+
 const baseURL= "https://catfact.ninja/fact";
 export default function Mainsection() {
   const [post, setPost] = React.useState(null);
     
-
- 
-    
-  
       React.useEffect(() =>{
         axios.get(baseURL).then((response) => {
           setPost(response.data);
