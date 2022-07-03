@@ -47,7 +47,7 @@ export default function Home() {
               <p className={styles.siteSub}></p>
               <p className={styles.roleNote}>
 Welcome to the VirusWiki database. VirusWiki is a free wiki resource that lets you learn about viruses. I hope you will be able to
-learn more about viruses so you can get gain a better understanding. Our information is sourced from medical journals from leading experts. We will continue to add more information in the coming months.
+learn more about viruses so you can  gain a better understanding. Our information is sourced from medical journals from leading scientific experts and other proven sources. We will continue to add more information in the coming months.
 </p>
 <p className={styles.roleNote}>The idea for a wiki was created so people can learn more about viruses and to connect medical articles created by scientists
 to everyone. As of now, this database is maintained by two people who are passionate about this project. Within the next year, we plan on expanding our team.</p>
