@@ -5,7 +5,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Mainsection from './pages/mainsection/Mainsection';
+import Covid from './pages/covid/covid';
 import Mainsectiontwo from './pages/mainsectiontwo/Mainsectiontwo';
 import About from "./pages/about/About";
 import Sidebar from './pages/sidebar/Sidebar';
@@ -24,7 +24,7 @@ export default function App() {
         */}
         <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route  path="/Mainsection" element={<Mainsection />} /> 
+        <Route  path="/Covid" element={<Covid/>} /> 
         <Route  path="/Mainsectiontwo" element={<Mainsectiontwo />} /> 
         <Route  path="/About" element={<About/>} /> 
         <Route  path="/Sidebar" element={<Sidebar />} /> 
