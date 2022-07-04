@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Covid.module.css";
+import styles from "./covid.module.css";
 import axios from "axios";
 import { HashLink } from "react-router-hash-link";
 import { Outlet } from "react-router-dom";

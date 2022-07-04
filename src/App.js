@@ -6,11 +6,12 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Covid from './pages/covid/Covid';
+import Covid from './pages/covid/covid';
 import Mainsectiontwo from './pages/mainsectiontwo/Mainsectiontwo';
 import About from "./pages/about/About";
 import Sidebar from './pages/sidebar/Sidebar';
 import Home from './pages/home/Home';
+
 export default function App() {
   
   return (
@@ -31,6 +32,7 @@ export default function App() {
         <Route  path="/About" element={<About/>} /> 
         <Route  path="/Sidebar" element={<Sidebar />} /> 
         <Route  path="/Home" element={<Home />} /> 
+       
         </Routes>
       </div>
     </Router>

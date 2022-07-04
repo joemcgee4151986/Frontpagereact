@@ -1,0 +1,102 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+	display: block;
+}
+.article h2 {
+	font-size: 1.6em;
+	margin: 0.5em 0 0.5em 0;
+	font-family: 'Linux Libertine','Georgia','Times',serif;
+	border-bottom: 1px solid #a2a9b1;
+	line-height: 1.4em;
+	padding-bottom: 0em;
+}
+.article h3 {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.article p.roleNote {
+	padding: 1em 0 0 1.6em;
+	font-style: italic;
+}
+div.articleRight {
+	border: 1px solid #c8ccd1;
+	padding: 3px;
+	float: right;
+	background-color: #f8f9fa;
+	font-size: 94%;
+	text-align: center;
+	overflow: hidden;
+	line-height: 1.4em;
+	padding: 3px;
+	font-size: 94%;
+	margin: 0 0 5px 15px;
+	text-align: left;
+	
+}
+div.articleRightInner {
+	border: 1px solid #c8ccd1;
+	padding: 3px;
+	background-color: #f8f9fa;
+	font-size: 94%;
+	text-align: center;
+	overflow: hidden;
+	width:200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.article {
+	padding: 1.25em 1.5em 1.5em 1.5em;
+	border-left: 1px solid #a7d7f9;
+	background: #FFF;
+	line-height: 1.6;
+	font-size: 0.875em;
+	border-top: 1px solid #a7d7f9;
+	border-bottom: 1px solid #a7d7f9;
+}
+.article p {
+	line-height: inherit;
+	margin: 0.5em 0;
+}
+@media only screen and (min-width: 35em) {
+}
+@media print,(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 1.25dppx),(min-resolution: 120dpi) {
+}
+@media print {
+	*,*:before,*:after,*:first-letter,*:first-line {
+		background: transparent !important;
+		color: #000 !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+}
+@media screen and (max-width: 850px) {
+	#searchInput {
+		width: 110px;
+	}
+	#simpleSearch {
+		width: 138px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.tabsRight {
+		display: none;
+	}
+}
+@media screen and (max-width: 550px) {
+	.sidebar {
+		width: 6em;
+		padding: 3px 0.5em 10px 0.5em;
+	}
+	.mainsection {
+		margin: 0 0 0 7em;
+	}
+	.contentsPanel {
+		width: auto;
+	}
+}
+@media screen and (max-width: 400px) {
+	#simpleSearch {
+		display: none;
+	}
+}
