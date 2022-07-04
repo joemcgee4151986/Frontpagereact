@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
+import './App.module.css';
+
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-import Covid from './pages/covid/covid';
+import Covid from './pages/covid/Covid';
 import Mainsectiontwo from './pages/mainsectiontwo/Mainsectiontwo';
 import About from "./pages/about/About";
 import Sidebar from './pages/sidebar/Sidebar';

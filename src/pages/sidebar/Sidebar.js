@@ -1,10 +1,10 @@
 import React from 'react';
-
+import styles from './Sidebar.module.css';
 export default function Sidebarvisual() {
     return (
       <div>
     <div className="wrapAll clearfix">
-          <div className="sidebar">
+          <div className={styles.sidebar}>
             <div className="logo">
               <a href="/"><img src alt="" /></a>
             </div>
