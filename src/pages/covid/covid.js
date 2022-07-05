@@ -1,5 +1,5 @@
 import React from "react";
-import "./Covid.module.css"
+import "./covid.module.css"
 
 import Body from "../body/body";
 
