@@ -1,11 +1,4 @@
-@font-face {
-font-family: "Linux Libertine";
- src: url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.eot"); 
- src: url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.eot?#iefix")
-  format("embedded-opentype"), url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.woff2") 
-  format("woff2"), url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.woff") format("woff"), url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.svg#Linux Libertine") format("svg"); 
-	
-}
+
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -343,7 +336,34 @@ a:hover {
 	font-size: 0.75em;
 	word-wrap: break-word;
 }
-
+div.articleRight {
+	border: 1px solid #c8ccd1;
+	padding: 3px;
+	float: right;
+	background-color: #f8f9fa;
+	font-size: 94%;
+	text-align: center;
+	overflow: hidden;
+	line-height: 1.4em;
+	padding: 3px;
+	font-size: 94%;
+	margin: 0 0 5px 15px;
+	text-align: left;
+	
+}
+div.articleRightInner {
+	border: 1px solid #c8ccd1;
+	padding: 3px;
+	background-color: #f8f9fa;
+	font-size: 94%;
+	text-align: center;
+	overflow: hidden;
+	width:200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
 .logo {
 	margin-bottom: 20px;
 }
