@@ -18,11 +18,7 @@ class Article extends React.Component {
               here.</a></p>
       <h2> Michael McGee</h2>
       <p className={styles.siteSub}>
-      Ea duo atqui incorrupte, sed rebum regione suscipit ex, mea ex
-            dicant percipit referrentur. Dicat luptatum constituam vix ut. His
-            vide platonem omittantur id, vel quis vocent an. Ad pro inani zril
-            omnesque. Mollis forensibus sea an, vim habeo adipisci contentiones
-            ad, tale autem graecis ne sit.
+      I'm a Microbiology Technologist at LabCorp. I also go to school for my PostBacc in Biomedical Informatics. In my downtime, I hang with my loving girlfriend, game, and watch too much tv.
       </p>
       </div>
       );
