@@ -8,7 +8,7 @@ class Article extends React.Component {
     <div>
       <h2>Joseph McGee</h2>
       <p className={styles.siteSub}>
-      While I'm not programming, I like to relax, exercise, and play video
+      When I'm not programming, I like to relax, exercise, and play video
             games when my son is sleeping. You can find my projects{" "}
             <a
               href="https://github.com/joemcgee4151986"
