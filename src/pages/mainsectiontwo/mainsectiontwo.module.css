@@ -205,7 +205,7 @@ textarea {
 	visibility: hidden;
 }
 .clearfix:before,.clearfix:after {
-	content: " ";
+	content: ".";
 	display: table;
 }
 .clearfix:after {
