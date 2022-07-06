@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./body.module.css";
+import styles from "./virus.module.css";
 import axios from "axios";
 import { HashLink } from "react-router-hash-link";
-const baseURL = "https://desolate-sea-33600.herokuapp.com/virus/1";
+const baseURL = "https://catfact.ninja/fact?max_length=140";
 export default function Body() {
     const [post, setPost] = React.useState(null);
 
@@ -34,7 +34,7 @@ return (
               </div>
       
               <div className={styles.article}>
-                <h1 className={styles.title}>{post.changes}</h1>
+                <h1 className={styles.title}>{post.length}</h1>
       
                 <p className={styles.siteSub}>
                   From Wikipedia, the free encyclopedia
@@ -53,7 +53,7 @@ return (
                   <p>{post.id}</p>
                 </div>
                 <div>
-                  <p id="information">{post.description}</p>
+                  <p id="information">{post.fact}</p>
                 </div>
       
                 <div className={styles.contentsPanel}>

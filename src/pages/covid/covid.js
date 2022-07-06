@@ -1,16 +1,11 @@
 import React from "react";
-import "./covid.module.css"
-
-import Body from "../body/body";
+import Body from "../../components/Covidbody/body";
 
 export default function Covid() {
 
   return (
     <div>
       <Body/>
-
-   
     </div>
   );
-
   }

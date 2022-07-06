@@ -1,3 +1,7 @@
+.mainsection {
+	margin: 0 0 0 11em;
+}
+
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
 	display: block;
 }
@@ -99,4 +103,11 @@ div.articleRightInner {
 	#simpleSearch {
 		display: none;
 	}
+}
+.headerLinks {
+	text-align: right;
+	padding: 0.8em 1.4em;
+	
+	color: #777;
+	letter-spacing: 0.017em;
 }

@@ -1,16 +1,11 @@
 import React from "react";
-
-
-import Body from "../virus/virus";
-
+import Virus from "../../components/virusmainsection/Virus";
 
 export default function Mainsectiontwo() {
 
   return (
     <div>
-      <Body/>
-
-   
+      <Virus/>
     </div>
   );
 
