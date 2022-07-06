@@ -157,8 +157,7 @@ div.articleRightInner {
 	margin: 0.5em 0;
 }
 
-@media only screen and (min-width: 35em) {
-}
+
 @media print,(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 1.25dppx),(min-resolution: 120dpi) {
 }
 @media print {
@@ -168,7 +167,40 @@ div.articleRightInner {
 		box-shadow: none !important;
 		text-shadow: none !important;
 	}
+	a,a:visited {
+		text-decoration: underline;
+	}
+	a[href]:after {
+		content: " (" attr(href) ")";
+	}
+	abbr[title]:after {
+		content: " (" attr(title) ")";
+	}
+	a[href^="#"]:after,a[href^="javascript:"]:after {
+		content: "";
+	}
+	pre,blockquote {
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+	thead {
+		display: table-header-group;
+	}
+	tr,img {
+		page-break-inside: avoid;
+	}
+	img {
+		max-width: 100% !important;
+	}
+	p,h2,h3 {
+		orphans: 3;
+		widows: 3;
+	}
+	h2,h3 {
+		page-break-after: avoid;
+	}
 }
+
 @media screen and (max-width: 850px) {
 	#searchInput {
 		width: 110px;
@@ -198,4 +230,64 @@ div.articleRightInner {
 	#simpleSearch {
 		display: none;
 	}
+}
+
+.contentsPanel {
+	border: 1px solid #a2a9b1;
+	background-color: #f8f9fa;
+	padding: 5px;
+	font-size: 95%;
+	position: relative;
+	line-height: 1.7em;
+	width: 280px;
+}
+.contentsHeader {
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+.hidePanel, .showPanel {
+	float: right;
+	margin: 0 5px;
+	position: absolute;
+	right: 20px;
+	cursor: pointer;
+	color: #0645ad;
+	top: 4px;
+}
+.contentsPanel ul li span {
+	display: inline-block;
+	margin-right: 8px;
+}
+.contentsPanel ul li {
+}
+.contentsPanel ul {
+	padding: 0 0 5px 5px;
+}
+.contentsPanel ul li ul{
+}
+.contentsPanel ul li ul li {
+	padding: 0 0 0 25px;
+}
+.showPanel {
+	display: none;
+}
+.minimizedPanel .showPanel {
+	display: block;
+}
+.minimizedPanel .hidePanel {
+	display: none
+}
+.contentsPanel.minimizedPanel {
+	width: 130px;
+}
+.minimizedPanel .contentsHeader {
+	text-align: left;
+}
+
+span.user {
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-image: url("/src/img/user-ico.png");
+	padding-left: 15px !important;
 }
