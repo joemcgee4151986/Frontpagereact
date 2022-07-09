@@ -65,7 +65,7 @@
  
   /*Style for dropdown links*/
   .mobile-menu li:hover ul a {
-      background: #f3f3f3;
+    
     
       height: 40px;
       line-height: 40px;
@@ -101,7 +101,7 @@
   .mobile-menu .show-menu {
       text-decoration: none;
  
-      background: #f3f3f3;
+     
       text-align: vertical;
       padding: 10px 15px;
       display: none;
