@@ -27,6 +27,7 @@
 }
 .mainsection {
 	margin: 0 0 0 11em;
+	
 }
 .headerLinks {
 	text-align: right;
@@ -100,7 +101,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 	border-bottom: 1px solid #a2a9b1;
 }
 .article h2 {
-	font-size: 1.6em;
+	font-size: 1.6vh;
 	margin: 0.5em 0 0.5em 0;
 	font-family: 'Linux Libertine','Georgia','Times',serif;
 	border-bottom: 1px solid #a2a9b1;
@@ -151,6 +152,7 @@ div.articleRightInner {
 	font-size: 0.85em;
 	border-top: 1px solid #a7d7f9;
 	border-bottom: 1px solid #a7d7f9;
+	border-right: 1px solid #a7d7f9
 }
 .article p {
 	line-height: inherit;
@@ -167,6 +169,7 @@ div.articleRightInner {
 		color: #000 !important;
 		box-shadow: none !important;
 		text-shadow: none !important;
+		
 	}
 	a,a:visited {
 		text-decoration: underline;
@@ -213,6 +216,7 @@ div.articleRightInner {
 @media screen and (max-width: 700px) {
 	.tabsRight {
 		display: none;
+		
 	}
 }
 @media screen and (max-width: 550px) {
@@ -221,7 +225,10 @@ div.articleRightInner {
 		padding: 3px 0.5em 10px 0.5em;
 	}
 	.mainsection {
-		margin: 0 0 0 5.2em;
+		margin: 0 0 0 7.2em;
+		width: 220px;
+		height: 220px;
+		margin: 0 auto;
 	}
 	.contentsPanel {
 		width: auto;
@@ -230,6 +237,9 @@ div.articleRightInner {
 @media screen and (max-width: 400px) {
 	#simpleSearch {
 		display: none;
+		text-align:"center";
+		margin-left:"auto";
+		margin-right:"auto";
 	}
 }
 

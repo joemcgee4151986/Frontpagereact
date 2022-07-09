@@ -129,7 +129,7 @@
  
   /*Responsive Styles*/
  
-  @media screen and (max-width : 600px){
+  @media only screen and (min-width: 280px) and (max-width: 600px){
     .mobile-menu .lines {
       
         -webkit-tap-highlight-color:rgba(0,0,0,0);
