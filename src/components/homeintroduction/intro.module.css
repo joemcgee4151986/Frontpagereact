@@ -125,6 +125,7 @@ div.articleRightInner {
 	font-size: 0.85em;
 	border-top: 1px solid #a7d7f9;
 	border-bottom: 1px solid #a7d7f9;
+    border-right: 1px solid #a7d7f9
 }
 .article p {
 	line-height: inherit;
@@ -151,6 +152,9 @@ div.articleRightInner {
     }
     .mainsection {
 		margin: 0 0 0 7.2em;
+        width: 220px;
+		height: 220px;
+		margin: 0 auto;
     }
     .contentsPanel {
         width: auto;
