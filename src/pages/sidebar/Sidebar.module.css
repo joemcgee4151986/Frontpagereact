@@ -129,6 +129,7 @@
  
   @media screen and (max-width : 768px){
     .mobile-menu .lines {
+        -webkit-tap-highlight-color: transparent;
       border-bottom: 15px double grey;
       border-top: 5px solid grey;
       content:"";
@@ -137,7 +138,7 @@
       padding-right:15px;
       margin-left: 2px;
     float: left;
-    -webkit-tap-highlight-color: transparent;
+   
   }
       /*Make dropdown links appear inline*/
       .mobile-menu ul {
