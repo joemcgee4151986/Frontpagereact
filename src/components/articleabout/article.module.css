@@ -1,53 +1,121 @@
 .mainsection {
-	margin: 0 0 0 11em;
+    margin: 0 0 0 11em;
+}
+.headerLinks {
+    text-align: right;
+    padding: 0.8em 1.4em;
+    
+    color: #777;
+    letter-spacing: 0.017em;
+}
+.headerLinks a{
+    display: inline-block;
+    margin: 0 0 0 0.5em;
+}
+
+.tabs {
+}
+.tabs ul li a {
+    display: block;
+    background: url("/src/img/blue-gradient.png") bottom left repeat-x transparent;
+    font-size: 0.85em;
+    padding: 1em 0.5em 0;
+    line-height: 2em;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    border-bottom: 1px solid #A7D7F9;
+}
+.tabs ul li a.active {
+    background: #FFF;
+    border-bottom-color: transparent;
+}
+.tabs ul {
+    display: inline-block;
+    background: url("/src/img/tab-separator.png") repeat-x top left transparent;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0 1px 0 0;
+}
+.tabs ul li {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    display: inline-block;
+    float: left;
+    margin: 0 1px 0 0px;
+}
+.tabs ul {
+}
+.tabsLeft {
+    line-height: 0;
+    float: left;
+}
+
+.tabsRight {
+    float: right;
+    line-height: 0;
+}
+
+.clearfix:before,.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
-	display: block;
+    display: block;
+}
+
+.article h1 {
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    border-bottom: 1px solid #a2a9b1;
 }
 .article h2 {
-	font-size: 1.6em;
-	margin: 0.5em 0 0.5em 0;
-	font-family: 'Linux Libertine','Georgia','Times',serif;
-	border-bottom: 1px solid #a2a9b1;
-	line-height: 1.4em;
-	padding-bottom: 0em;
+    font-size: 1.6em;
+    margin: 0.5em 0 0.5em 0;
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    border-bottom: 1px solid #a2a9b1;
+    line-height: 1.4em;
+    padding-bottom: 0em;
 }
 .article h3 {
-	font-weight: bold;
-	font-size: 1.2em;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 .article p.roleNote {
-	padding: 1em 0 0 1.6em;
-	font-style: italic;
+    padding: 1em 0 0 1.6em;
+    font-style: italic;
 }
 div.articleRight {
-	border: 1px solid #c8ccd1;
-	padding: 3px;
-	float: right;
-	background-color: #f8f9fa;
-	font-size: 94%;
-	text-align: center;
-	overflow: hidden;
-	line-height: 1.4em;
-	padding: 3px;
-	font-size: 94%;
-	margin: 0 0 5px 15px;
-	text-align: left;
-	
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+    float: right;
+    background-color: #f8f9fa;
+    font-size: 94%;
+    text-align: center;
+    overflow: hidden;
+    line-height: 1.4em;
+    padding: 3px;
+    font-size: 94%;
+    margin: 0 0 5px 15px;
+    text-align: left;
+    
 }
 div.articleRightInner {
-	border: 1px solid #c8ccd1;
-	padding: 3px;
-	background-color: #f8f9fa;
-	font-size: 94%;
-	text-align: center;
-	overflow: hidden;
-	width:200px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+    background-color: #f8f9fa;
+    font-size: 94%;
+    text-align: center;
+    overflow: hidden;
+    width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .article {
 	padding: 1.25em 1.5em 1.5em 1.5em;
@@ -57,65 +125,91 @@ div.articleRightInner {
 	font-size: 0.85em;
 	border-top: 1px solid #a7d7f9;
 	border-bottom: 1px solid #a7d7f9;
-	border-right: 1px solid #a7d7f9
-	
+    border-right: 1px solid #a7d7f9
 }
 .article p {
 	line-height: inherit;
 	margin: 0.5em 0;
 }
 
+@media screen and (max-width: 850px) {
+    #searchInput {
+        width: 110px;
+    }
+    #simpleSearch {
+        width: 138px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .tabsRight {
+        display: none;
+    }
+}
+@media screen and (max-width: 550px) {
+    .sidebar {
+        width: 6em;
+        padding: 3px 0.5em 10px 0.5em;
+    }
+    .mainsection {
+		margin: 0 0 0 7.2em;
+        width: 220px;
+		height: 220px;
+		margin: 0 auto;
+    }
+    .contentsPanel {
+        width: auto;
+    }
+}
+p.siteSub {
+    font-size: 92%;
+}
+
+@media screen and (max-width: 400px) {
+    #simpleSearch {
+        display: none;
+    }
+}
 @media only screen and (min-width: 35em) {
 }
 @media print,(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 1.25dppx),(min-resolution: 120dpi) {
 }
 @media print {
-	*,*:before,*:after,*:first-letter,*:first-line {
-		background: transparent !important;
-		color: #000 !important;
-		box-shadow: none !important;
-		text-shadow: none !important;
-	}
-}
-@media screen and (max-width: 850px) {
-	#searchInput {
-		width: 110px;
-	}
-	#simpleSearch {
-		width: 138px;
-	}
-}
-@media screen and (max-width: 700px) {
-	.tabsRight {
-		display: none;
-		
-	}
-}
-@media screen and (max-width: 768px) {
-	.sidebar {
-		width: 6em;
-		padding: 3px 0.5em 10px 0.5em;
-	}
-	.mainsection {
-		margin: 0 0 0 7.2em;
-		width: 220px;
-		height: 220px;
-		margin: 0 auto;
-		
-	}
-	.contentsPanel {
-		width: auto;
-	}
-}
-@media screen and (max-width: 400px) {
-	#simpleSearch {
-		display: none;
-	}
-}
-.headerLinks {
-	text-align: right;
-	padding: 0.8em 1.4em;
-	
-	color: #777;
-	letter-spacing: 0.017em;
+    *,*:before,*:after,*:first-letter,*:first-line {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    a[href^="#"]:after,a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre,blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+    tr,img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    p,h2,h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,h3 {
+        page-break-after: avoid;
+    }
 }
