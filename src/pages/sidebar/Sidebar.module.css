@@ -127,7 +127,7 @@
  
   /*Responsive Styles*/
  
-  @media screen and (max-width : 768px){
+  @media screen and (max-width : 550px){
     .mobile-menu .lines {
         -webkit-tap-highlight-color: transparent;
       border-bottom: 15px double grey;
