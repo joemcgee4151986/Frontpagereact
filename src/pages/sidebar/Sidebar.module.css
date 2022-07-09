@@ -2,6 +2,8 @@
 *{
     margin:0;
     padding:0;
+    -webkit-tap-highlight-color: transparent;
+    
   }
   body {
       font-family: Helvetica, Arial, sans-serif;
@@ -132,12 +134,9 @@
       
         -webkit-tap-highlight-color: transparent;
         
-          -moz-transition: all 0.4s ease 0s;
-          -ms-transition: all 0.4s ease 0s;
-          -o-transition: all 0.4s ease 0s;
-          transition: all 0.4s ease 0s;
-      border-bottom: 15px double grey;
-      border-top: 5px solid grey;
+         
+      border-bottom: 15px double grey ;
+      border-top: 5px solid grey ;
       content:"";
       height: 5px;
       width:20px;
