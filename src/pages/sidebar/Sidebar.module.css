@@ -1,41 +1,4 @@
- 
-.sidebar {
-    float: left;
-    width: 9em;
-    padding: 3px 1.5em 10px 1.3em;
-    position: absolute;
-}
-.sidebar h3 {
-    font-size: 0.75em;
-    color: #4d4d4d;
-    font-weight: normal;
-    margin: 0.5em 0 0 0;
-    padding: 0.25em 0;
-    cursor: default;
-    border: 0;
-    border-bottom: 1px solid #D8D8D8;
-}
-.sidebar li {
-    line-height: 1.125em;
-    margin: 0;
-    padding: 0.25em 0;
-    font-size: 0.75em;
-    word-wrap: break-word;
-}
- 
- 
-.logo {
-    margin-bottom: 20px;
-}
- 
- 
- 
-@media screen and (max-width: 550px) {
-    .sidebar {
-        width: 6em;
-        padding: 3px 0.5em 10px 0.5em;
-    }
-}
+
 *{
     margin:0;
     padding:0;
@@ -97,6 +60,7 @@
   .mobile-menu li:hover a {
       color: #f6f6f6;
     background-color:#ccddee;
+  min-width: 80px;
   }
  
   /*Style for dropdown links*/
@@ -111,6 +75,7 @@
   /*Hover state for dropdown links*/
   .mobile-menu li:hover .mobile-menu ul a:hover {
       color: #f6f6f6;
+   
   }
  
   /*Hide dropdown links until they are needed*/
