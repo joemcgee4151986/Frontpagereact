@@ -58,7 +58,7 @@
  
   /*Hover state for top level links*/
   .mobile-menu li:hover a {
-      color: #f6f6f6;
+   
     
   min-width: 75px;
   }
@@ -100,7 +100,7 @@
   /*Style 'show menu' label button and hide it by default*/
   .mobile-menu .show-menu {
       text-decoration: none;
-      color: #fff;
+ 
       background: #f3f3f3;
       text-align: vertical;
       padding: 10px 15px;
