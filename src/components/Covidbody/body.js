@@ -54,7 +54,7 @@ return (
                 </div>
       
                 <div className={styles.contentsPanel}>
-                  <div className={styles.contentsHeader}>Contents</div>
+                  <div className={styles.contentsHeader}><b>Contents</b></div>
                   <ul>
                     <li>
                       <span>1</span>
