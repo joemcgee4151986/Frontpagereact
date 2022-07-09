@@ -137,7 +137,7 @@
       padding-right:15px;
       margin-left: 2px;
     float: left;
-    
+    -webkit-tap-highlight-color: transparent;
   }
       /*Make dropdown links appear inline*/
       .mobile-menu ul {
