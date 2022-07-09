@@ -59,14 +59,14 @@
   /*Hover state for top level links*/
   .mobile-menu li:hover a {
       color: #f6f6f6;
-    background-color:#ccddee;
-  min-width: 80px;
+    
+  min-width: 75px;
   }
  
   /*Style for dropdown links*/
   .mobile-menu li:hover ul a {
       background: #f3f3f3;
-      color: #2f3036;
+    
       height: 40px;
       line-height: 40px;
 	  
@@ -75,7 +75,7 @@
   /*Hover state for dropdown links*/
   .mobile-menu li:hover .mobile-menu ul a:hover {
       color: #f6f6f6;
-   
+      min-width: 75px;
   }
  
   /*Hide dropdown links until they are needed*/
