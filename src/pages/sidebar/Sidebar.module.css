@@ -125,7 +125,7 @@
  
   /*Responsive Styles*/
  
-  @media screen and (max-width : 800px){
+  @media screen and (max-width : 768px){
     .mobile-menu .lines {
       border-bottom: 15px double grey;
       border-top: 5px solid grey;
@@ -133,7 +133,9 @@
       height: 5px;
       width:20px;
       padding-right:15px;
+      margin-left: 2px;
     float: left;
+    
   }
       /*Make dropdown links appear inline*/
       .mobile-menu ul {
@@ -146,8 +148,13 @@
       }
       /*Make all menu links full width*/
       .mobile-menu ul li, .mobile-menu li a {
-          width: 100%;
+        width: 100%;
           margin-left:-6.2em;
+        position:static;
+        
+     
+         
+
       }
       /*Display 'show menu' link*/
       .mobile-menu .show-menu {

@@ -220,7 +220,7 @@ div.articleRightInner {
 		padding: 3px 0.5em 10px 0.5em;
 	}
 	.mainsection {
-		margin: 0 0 0 7em;
+		margin: 0 0 0 5.5em;
 	}
 	.contentsPanel {
 		width: auto;
@@ -239,7 +239,7 @@ div.articleRightInner {
 	font-size: 95%;
 	position: relative;
 	line-height: 1.7em;
-	width: 280px;
+	width: 260px;
 }
 .contentsHeader {
 	font-family: sans-serif;
