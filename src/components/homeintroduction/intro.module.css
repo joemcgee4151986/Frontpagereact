@@ -118,17 +118,17 @@ div.articleRightInner {
     
 }
 .article {
-    padding: 1.25em 1.5em 1.5em 1.5em;
-    border-left: 1px solid #a7d7f9;
-    background: #FFF;
-    line-height: 1.6;
-    font-size: 0.875em;
-    border-top: 1px solid #a7d7f9;
-    border-bottom: 1px solid #a7d7f9;
+	padding: 1.25em 1.5em 1.5em 1.5em;
+	border-left: 1px solid #a7d7f9;
+	background: #FFF;
+	line-height: 1.6;
+	font-size: 0.85em;
+	border-top: 1px solid #a7d7f9;
+	border-bottom: 1px solid #a7d7f9;
 }
 .article p {
-    line-height: inherit;
-    margin: 0.5em 0;
+	line-height: inherit;
+	margin: 0.5em 0;
 }
 
 @media screen and (max-width: 850px) {
