@@ -100,7 +100,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 	border-bottom: 1px solid #a2a9b1;
 }
 .article h2 {
-	font-size: 1.6vh;
+	font-size: 1.6em;
 	margin: 0.5em 0 0.5em 0;
 	font-family: 'Linux Libertine','Georgia','Times',serif;
 	border-bottom: 1px solid #a2a9b1;
@@ -221,7 +221,7 @@ div.articleRightInner {
 		padding: 3px 0.5em 10px 0.5em;
 	}
 	.mainsection {
-		margin: 0 0 0 7.2em;
+		margin: 0 0 0 5.2em;
 	}
 	.contentsPanel {
 		width: auto;
