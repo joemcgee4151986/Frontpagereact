@@ -31,7 +31,7 @@
 }
 .headerLinks {
 	text-align: right;
-	padding: 0.8em 1.4em;
+	padding: .5px 1.4em;
 	
 	color: #777;
 	letter-spacing: 0.017em;
@@ -69,7 +69,7 @@
 	padding: 0;
 	white-space: nowrap;
 	display: inline-block;
-	float: left;
+
 	margin: 0 1px 0 0px;
 }
 .tabs ul {
@@ -157,6 +157,7 @@ div.articleRightInner {
 .article p {
 	line-height: inherit;
 	margin: 0.5em 0;
+	
 }
 
 
@@ -221,17 +222,20 @@ div.articleRightInner {
 }
 @media screen and (max-width: 550px) {
 	.sidebar {
+		
 		width: 6em;
 		padding: 3px 0.5em 10px 0.5em;
 	}
 	.mainsection {
+		
 		margin: 0 0 0 7.2em;
-		width: 220px;
-		height: 220px;
+		width: 100%;
+		height: 100%;
 		margin: 0 auto;
 	}
 	.contentsPanel {
 		width: auto;
+		width: 28%;
 	}
 }
 @media screen and (max-width: 400px) {
@@ -240,6 +244,7 @@ div.articleRightInner {
 		text-align:"center";
 		margin-left:"auto";
 		margin-right:"auto";
+		
 	}
 }
 
