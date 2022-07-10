@@ -17,8 +17,11 @@
   font-weight: 400;
   width:100%;
   text-align:center;
-      position: static;
-    margin:0 auto;
+ z-index: 3;
+ background: white;
+ background-position: 5px;
+      position: absolute;
+    margin:1 auto;
   }
   /*Strip the ul of padding and list styling*/
   .mobile-menu ul {
@@ -152,7 +155,6 @@
   }
       /*Make dropdown links appear inline*/
       .mobile-menu ul {
-        
           position: static;
           display: none;
       }
@@ -164,9 +166,9 @@
       .mobile-menu ul li, .mobile-menu li a {
         
         width: 100%;
-          margin-left:-6.2em;
+         
         
-        
+        background-size: 5px;
      
          
 
@@ -174,6 +176,7 @@
       /*Display 'show menu' link*/
       .mobile-menu .show-menu {
           display:block;
+       
           
       }
   }
