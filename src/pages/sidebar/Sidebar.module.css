@@ -18,9 +18,9 @@
   width:100%;
   text-align:center;
  z-index: 3;
- background: white;
+
  background-position: 5px;
-      position: absolute;
+      position: relative;
     margin:1 auto;
   }
   /*Strip the ul of padding and list styling*/
@@ -168,7 +168,7 @@
         width: 100%;
          
         
-        background-size: 5px;
+     
      
          
 
