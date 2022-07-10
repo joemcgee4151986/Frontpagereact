@@ -139,11 +139,9 @@
  
   @media only screen and (min-width: 280px) and (max-width: 600px){
     .mobile-menu .lines {
-      
         -webkit-tap-highlight-color:rgba(0,0,0,0);
         position:relative;
         z-index:2;
-         
       border-bottom: 15px double grey ;
       border-top: 5px solid grey ;
       content:"";
@@ -160,6 +158,10 @@
           display: none;
           background-color: white;
           z-index: auto;
+          border-top: 1px solid #a7d7f9;
+	border-bottom: 1px solid #a7d7f9;
+    border-right: 1px solid #a7d7f9;
+    border-left: 1px solid #a7d7f9;
       }
       /*Create vertical spacing*/
       .mobile-menu li {
