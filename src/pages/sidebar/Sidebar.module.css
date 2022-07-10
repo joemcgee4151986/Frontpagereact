@@ -141,7 +141,8 @@
     .mobile-menu .lines {
       
         -webkit-tap-highlight-color:rgba(0,0,0,0);
-        
+        position:relative;
+        z-index:2;
          
       border-bottom: 15px double grey ;
       border-top: 5px solid grey ;
@@ -155,8 +156,10 @@
   }
       /*Make dropdown links appear inline*/
       .mobile-menu ul {
-          position: static;
+          position: absolute;
           display: none;
+          background-color: white;
+          z-index: auto;
       }
       /*Create vertical spacing*/
       .mobile-menu li {
