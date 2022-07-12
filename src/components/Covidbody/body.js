@@ -47,7 +47,7 @@ return (
                       alt="meteors"
                     />
                   </div>
-                  <p>{post.id}</p>
+                  <p>{post.variant}</p>
                 </div>
                 <div>
                   <p id="information">{post.description}</p>
