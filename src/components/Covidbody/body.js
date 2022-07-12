@@ -14,8 +14,7 @@ export default function Body() {
     }, []);
   
     if (!post) return null;
- 
-        
+  
 return (
           <div>
             <div className={styles.mainsection}>
@@ -46,15 +45,11 @@ return (
                       alt="meteors"
                     />
                   </div>
-                  
                   <p>{post.variant}</p>
                 </div>
-
                 <div>
                   <p id="information">{post.summary}</p>
                 </div>
-               
-      
                 <div className={styles.contentsPanel}>
                   <div className={styles.contentsHeader}><b>Contents</b></div>
                   <ul>
@@ -67,19 +62,15 @@ return (
                           <HashLink smooth to="#information">
                             First
                           </HashLink>
-                          
                         </li>
                         </li>
-                      
                       </ul>
-          
                   </div>
                   <h1>Coming Soon{post.overview}</h1>
       <p>{post.purpose}</p>
       <h1>{post.variant}</h1>
       <p>{post.description}</p>
                      </div>
-          
                      </div>
                      </div>
 );
