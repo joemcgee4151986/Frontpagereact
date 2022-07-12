@@ -54,7 +54,7 @@ return (
                   <div className={styles.contentsHeader}><b>Contents</b></div>
                   <ul>
                     <li>
-                      <span>1</span>
+                      <span>1.0</span>
                       <a href="/">History</a>
                      
                         <li>
@@ -63,13 +63,17 @@ return (
                             First
                           </HashLink>
                         </li>
+                        <span>1.2</span>
+                        <HashLink smooth to="#D614G">
+                        D614G
+                          </HashLink>
                         </li>
                       </ul>
                   </div>
                   <h1>Coming Soon{post.overview}</h1>
       <p>{post.purpose}</p>
       <h1>{post.variant}</h1>
-      <p>{post.description}</p>
+      <p id="D614G">{post.description}</p>
                      </div>
                      </div>
                      </div>
