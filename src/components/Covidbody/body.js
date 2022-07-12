@@ -31,27 +31,29 @@ return (
               </div>
       
               <div className={styles.article}>
-                <h1 className={styles.title}>{post.changes}</h1>
+                <h1 className={styles.title}>{post.description2}</h1>
       
                 <p className={styles.siteSub}>
                   From Wikipedia, the free encyclopedia
                 </p>
                 <p className={styles.roleNote}>
-                  This article is about the writing implement. For other uses, see
-                  Pencil (disambiguation).
+                  
                 </p>
                 <div className={styles.articleRight}>
                   <div className={styles.articleRightInner}>
                     <img
-                      src="https://res.cloudinary.com/dtpgi0zck/image/upload/s--7UXxoGoz--/c_fill,h_580,w_860/v1/EducationHub/photos/virus.webp"
+                      src="https://images-ext-2.discordapp.net/external/PvClCHOCVvaBOoAY2Zt-wEKOYowTCqF6p1RukB5PRAw/https/fcgj83z0eul3uqz2k1ej79r8-wpengine.netdna-ssl.com/wp-content/uploads/2021/03/original-vs-mutant-SARS-CoV-2-spike-protein.jpg"
                       alt="meteors"
                     />
                   </div>
+                  
                   <p>{post.variant}</p>
                 </div>
+
                 <div>
-                  <p id="information">{post.description}</p>
+                  <p id="information">{post.summary}</p>
                 </div>
+               
       
                 <div className={styles.contentsPanel}>
                   <div className={styles.contentsHeader}><b>Contents</b></div>
@@ -65,13 +67,19 @@ return (
                           <HashLink smooth to="#information">
                             First
                           </HashLink>
+                          
                         </li>
                         </li>
                       
                       </ul>
-              
+          
                   </div>
+                  <h1>Coming Soon{post.overview}</h1>
+      <p>{post.purpose}</p>
+      <h1>{post.variant}</h1>
+      <p>{post.description}</p>
                      </div>
+          
                      </div>
                      </div>
 );
