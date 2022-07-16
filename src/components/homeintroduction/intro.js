@@ -35,9 +35,15 @@ class Intro extends React.Component {
             are passionate about this project. Within the next year, we plan on
             expanding our team.
           </p>
+          </div>
+          <div class="pagefooter">
+           <center>Template by <a href="http://html5-templates.com/" target="_blank" rel="noreferrer">HTML5 Templates</a></center>
+           <div class="footerlinks">
         </div>
         </div>
         </div>
+        </div>
+       
         );
     }
 }

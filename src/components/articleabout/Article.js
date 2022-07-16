@@ -33,6 +33,11 @@ class Article extends React.Component {
       I'm a Microbiology Technologist at LabCorp. I also go to school for my PostBacc in Biomedical Informatics. In my downtime, I hang with my loving girlfriend, game, and watch too much tv.
       </p>
       </div>
+      <div class="pagefooter">
+           <center>Template by <a href="http://html5-templates.com/" target="_blank" rel="noreferrer">HTML5 Templates</a></center>
+           <div class="footerlinks">
+      </div>
+      </div>
       </div>
       </div>
       );

@@ -96,9 +96,16 @@ export default function Body() {
           <p id="D614G">{post.description}</p>
           <h1>{posttwo.variant}</h1>
           <p id="Alpha">{posttwo.description}</p>
+          </div>
+          <div class="pagefooter">
+           <center>Template by <a href="http://html5-templates.com/" target="_blank" rel="noreferrer">HTML5 Templates</a></center>
+           <div class="footerlinks">
+          
+          <p></p>
         </div>
       </div>
     </div>
-          
+      </div>    
+     
   );
 }
