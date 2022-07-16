@@ -4,6 +4,7 @@ import styles from "./body.module.css";
 import axios from "axios";
 import { HashLink } from "react-router-hash-link";
 const baseURL = "https://desolate-sea-33600.herokuapp.com/virus/1";
+const baseURLtwo = "https://desolate-sea-33600.herokuapp.com/virus/2";
 export default function Body() {
   const [post, setPost] = React.useState(null);
 
@@ -12,11 +13,22 @@ export default function Body() {
       setPost(response.data);
     });
   }, []);
+  const [posttwo,setPosttwo] = React.useState(null);
+
+  React.useEffect(() => {
+    axios.get(baseURLtwo).then((response) => {
+      setPosttwo(response.data);
+    });
+  }, []);
+
+
+
 
   if (!post) return null;
 
   return (
     <div>
+      
       <div className={styles.mainsection}>
         <div className={styles.headerLinks}></div>
         <div className={`${styles.tabs} ${styles.clearfix}`}>
@@ -30,10 +42,12 @@ export default function Body() {
         </div>
 
         <div className={styles.article}>
-          <h1 className={styles.title}>{post.description2}</h1>
-
+          
+         
+    <h1 className={styles.title}> {post.description2}</h1>
+       
           <p className={styles.siteSub}>
-            Pencils
+          {post.changes}
           </p>
           <p className={styles.roleNote}></p>
           <div className={styles.articleRight}>
@@ -68,14 +82,23 @@ export default function Body() {
                   D614G
                 </HashLink>
               </li>
+              <li>
+              <span>1.3</span>
+                <HashLink smooth to="#Alpha">
+                  Alpha
+                </HashLink>
+              </li>
             </ul>
           </div>
-          <h1>Coming Soon{post.overview}</h1>
           <p>{post.purpose}</p>
           <h1>{post.variant}</h1>
+          
           <p id="D614G">{post.description}</p>
+          <h1>{posttwo.variant}</h1>
+          <p id="Alpha">{posttwo.description}</p>
         </div>
       </div>
     </div>
+          
   );
 }

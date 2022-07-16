@@ -1,8 +1,11 @@
 import React from 'react';
 import styles from './Sidebar.module.css';
+import '../../darkmode.css'
 export default function Sidebarvisual() {
+
     return (
       <div>
+   
     <div className="wrapAll clearfix">
     <div className={styles['mobile-menu']}>
     <label for={styles['show-menu']} classname={styles['show-menu']}><div class={styles.lines}></div>

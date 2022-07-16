@@ -462,4 +462,16 @@
 			display: none;
 		}
 	}
-	
+	.darkmode--activated p, .darkmode--activated li {
+		color: #000;
+	  }
+	  
+	  .button {
+		isolation: isolate;
+	  }
+	  .mobile-menu li a {
+		color: #000;
+	  }
+	  .darkmode--activated .logo {
+		mix-blend-mode: difference;
+	  }

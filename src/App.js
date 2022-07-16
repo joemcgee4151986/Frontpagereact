@@ -1,5 +1,6 @@
 import React from 'react';
 import './app.css';
+import './darkmode.css';
 import {
   BrowserRouter as Router,
   Routes,
@@ -13,7 +14,8 @@ import Sidebar from './pages/sidebar/Sidebar';
 import Home from './pages/home/Home';
 
 export default function App() {
-  
+
+ 
   return (
     <Router>
     <div>
