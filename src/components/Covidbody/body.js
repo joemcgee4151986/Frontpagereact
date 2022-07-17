@@ -50,7 +50,7 @@ The virus can spread from an infected person’s mouth or nose in small liquid p
                 alt="meteors"
               />
             </div>
-            <p>{post.variant}</p>
+            <p>Covid <a href = "https://www.nature.com/articles/s41598-022-04950-4/figures/1">mutating.</a></p>
           </div>
           <div>
             <p id="information"></p>
