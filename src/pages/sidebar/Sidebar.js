@@ -14,7 +14,6 @@ export default function Sidebarvisual() {
                 <li><a href = ".">Home</a></li>
                 <li><a href="./About">About</a></li>
                 <li><a href="./Covid">Covid</a></li>
-                <li><a href="./Mainsectiontwo">Virus</a></li>
               </ul>
  
        {/*   <div className={styles.sidebar} />*/}
