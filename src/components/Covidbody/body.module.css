@@ -12,13 +12,11 @@
 	display: inline-block;
 	margin-right: 8px;
 }
-.contentsPanel ul li {
-}
+
 .contentsPanel ul {
 	padding: 0 0 5px 5px;
 }
-.contentsPanel ul li ul{
-}
+
 .contentsPanel ul li ul li {
 	padding: 0 0 0 25px;
 }
@@ -98,7 +96,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 
 .article h1 {
 	font-family: 'Linux Libertine','Georgia','Times',serif;
-	border-bottom: 1px solid #a2a9b1;
+	border-bottom: .1px solid #a2a9b1;
 }
 .article h2 {
 	font-size: 1.6vh;
@@ -107,6 +105,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 	border-bottom: 1px solid #a2a9b1;
 	line-height: 1.4em;
 	padding-bottom: 0em;
+	
 }
 .article h3 {
 	font-weight: bold;
