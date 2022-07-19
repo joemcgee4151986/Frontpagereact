@@ -37,23 +37,27 @@ export const virusData = {
         },
         {
           name: "Omicron BA.2",
-          description: "Like most variants, origins are unknown but as reported by the BBC, BA.2 was first detected in the Philippines in November, 2021. Results from a phylodynamic analysis of the sub-variants suggest. however, diversification of Omicron occurred around Gauteng Province of South Africa, meaning the sub-variants of BA.1, BA.1.1, BA.2, and BA.3 (the latest variant available to study by the authors)",
+          description: "Like most variants, origins are unknown but as reported by the BBC, BA.2 was first detected in the Philippines in November, 2021. Results from a phylodynamic analysis of the sub-variants suggest. however, diversification of Omicron occurred around Gauteng Province of South Africa, meaning the sub-variants of BA.1, BA.1.1, BA.2, and BA.3 (the latest variant available to study by the authors)1.",
    
           mutations:"Many mutations shared with other Omicron variants but specific ones include T19I, S371F and D405N, mainly in NTD and RBD.",
         },
         {
           name:"Omicron BA.3",
-          description: "This variant was originally detected in the northwest portion of South Africa. BA.1, BA.2, and BA.3 have been detected at around the same time but did not take off as effectively as the other variants",
-          mutations:"A unique mutation with R214del (deletion) as compared to BA.1 and BA.2.",
+          description: "This variant was originally detected in the northwest portion of South Africa. BA.1, BA.2, and BA.3 have been detected at around the same time but did not take off as effectively as the other variants 3.",
+          mutations:"A unique mutation with R214del (deletion) as compared to BA.1 and BA.2. 2.",
         },
         {
           name:"Omicron BA.4/5",
-          description:"Currently becoming the dominant global sub-variant as of July, 2022. It is suggested that the reversion mutation R493Q lead to improved ACE2 binding affinity based on in vitro testing with pseudoviruses.4 With immunization and infection profiles being different in every country, the effects of this variant will differ. In South Africa, hospitalization and death rates only had slight increases while Portugal experienced a larger increase in both rates.",
-          mutations:"Unique mutations in L452R and F486V and reversion mutation at Q493.",
+          description:"Currently becoming the dominant global sub-variant as of July, 2022. It is suggested that the reversion mutation R493Q lead to improved ACE2 binding affinity based on in vitro testing with pseudoviruses. 4. With immunization and infection profiles being different in every country, the effects of this variant will differ. In South Africa, hospitalization and death rates only had slight increases while Portugal experienced a larger increase in both rates. 5.",
+          mutations:"Unique mutations in L452R and F486V and reversion mutation at Q493."
         },
         {
           who:"Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age. The best way to prevent and slow down transmission is to be well informed about the disease and how the virus spreads. Protect yourself and others from infection by staying at least 1 metre apart from others, wearing a properly fitted mask, and washing your hands or using an alcohol-based rub frequently. Get vaccinated when it’s your turn and follow local guidance.The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory droplets to smaller aerosols. It is important to practice respiratory etiquette, for example by coughing into a flexed elbow, and to stay home and self-isolate until you recover if you feel unwell.",
-        }
+        },
+        {
+          name:"References",
+         description:"1.Volz EM, Koelle K, Bedford T (2013) Viral Phylodynamics. PLOS Computational Biology 9(3): e1002947. https://doi.org/10.1371/journal.pcbi.1002947\r\n2.Mallapaty, S., 2022. Where did Omicron come from? Three key theories. [online] Nature.com. https://doi.org/10.1038/d41586-022-00215-2\r\n3.Desingu, Perumal A et al. “Emergence of Omicron third lineage BA.3 and its importance.” Journal of medical virology vol. 94,5 (2022): 1808-1810. doi:10.1002/jmv.27601\r\n4.Wang, Qian et al. “Antibody evasion by SARS-CoV-2 Omicron subvariants BA.2.12.1, BA.4, & BA.5.” Nature, 10.1038/s41586-022-05053-w. 5 Jul. 2022, doi:10.1038/s41586-022-05053-w\r\n5.Callaway, E., 2022. What Omicron’s BA.4 and BA.5 variants mean for the pandemic. [online] Nature.com. https://doi.org/10.1038/d41586-022-01730-y\r\n"
+        },
       ]
     }
 }
