@@ -44,7 +44,7 @@ export default function Body() {
                 alt="meteors"
               />
             </div>
-            <p>Covid <a href = "https://www.nature.com/articles/s41598-022-04950-4/figures/1">mutating.</a></p>
+            <p>View a 3d model <a href = "https://sketchfab.com/3d-models/sars-cov-2-covid-19-1533d2519b084a1580ddba0d3c5a3aff">here</a></p>
           </div>
           <div>
             <p id="information"></p>
