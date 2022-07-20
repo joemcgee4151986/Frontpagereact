@@ -1,15 +1,14 @@
 import React from "react";
-import Reference from "../../pages/reference/reference";
 import {virusData} from "./virusData";
+
 import {MutationInfo} from "./MutationInfo";
-import {WHO} from "./WHO";
 import styles from "./body.module.css";
 import axios from "axios";
 import { HashLink } from "react-router-hash-link";
 const baseURL = "https://desolate-sea-33600.herokuapp.com/virus/1";
 
 export default function Body() {
-  const [post, setPost] = React.useState(null);
+  const [post, setPost,] = React.useState(null);
 
   React.useEffect(() => {
     axios.get(baseURL).then((response) => {
@@ -17,7 +16,7 @@ export default function Body() {
     });
   }, []);
   if (!post) return null;
-
+  
   return (
     <div>
       <div className={styles.mainsection}>
@@ -35,7 +34,8 @@ export default function Body() {
         <div className={styles.article}>
           <h1 className={styles.title}> {post.description2}</h1>
 
-          <p className={styles.siteSub}> {virusData.COVID.variants.map((mutationEntry, index)=> <WHO key={index} mutationEntry={mutationEntry}/>)}<i><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1"> -World Health Organization</a></i></p>
+          <p className={styles.siteSub}/> 
+<i><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1"> -World Health Organization</a></i>
           <p className={styles.roleNote}></p>
           <div className={styles.articleRight}>
             <div className={styles.articleRightInner}>
@@ -55,12 +55,67 @@ export default function Body() {
             </div>
             <ul>
                 <li>
-                <span>1</span>
+                <span>1.0</span>
                 <HashLink smooth to="#D614G">
-                 COVID TYPES
+                D614G
+                </HashLink></li>
+                <li>
+                <span>1.1</span>
+                <HashLink smooth to="#Alpha">
+                Alpha
+                </HashLink>
+                <li>
+                <span>1.2</span>
+                <HashLink smooth to="#Beta">
+                 Beta
+                </HashLink></li>
+                <span>1.3</span>
+                <HashLink smooth to="#Gamma">
+                 Gamma
+                </HashLink>
+                <li>
+                <span>1.4</span>
+                <HashLink smooth to="#Delta">
+                Delta
                 </HashLink>
               </li>
-              
+              <li>
+                <span>1.5</span>
+                <HashLink smooth to="#Omicron BA.1">
+                Omicron BA.1
+                </HashLink>
+              </li>
+              <li>
+                <span>1.6</span>
+                <HashLink smooth to="#Omicron BA.1.1">
+                Omicron BA.1.1
+                </HashLink>
+              </li>
+              <li>
+                <span>1.7</span>
+                <HashLink smooth to="#Omicron BA.2">
+                Omicron BA.2
+                </HashLink>
+                </li>
+                <li>
+                <span>1.8</span>
+                <HashLink smooth to="#Omicron BA.3">
+                Omicron BA.3
+                </HashLink>
+              </li>
+              <li>
+                <span>1.8</span>
+                <HashLink smooth to="#Omicron BA.4/5">
+                Omicron BA.4/5
+                </HashLink>
+              </li>
+              <li>
+                <span>1.9</span>
+                <HashLink smooth to="#References">
+               References
+                </HashLink>
+              </li>
+              </li>
             </ul>
           </div>
        
@@ -68,7 +123,6 @@ export default function Body() {
           <p>{post.changes}</p>
           <p>{post.description}</p>
           {virusData.COVID.variants.map((mutationEntry, index)=> <MutationInfo key={index} mutationEntry={mutationEntry}/>)}
-         <Reference/>
         </div>
         <div class="pagefooter">
           <center>
