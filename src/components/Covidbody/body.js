@@ -1,5 +1,5 @@
 import React from "react";
-
+import Reference from "../../pages/reference/reference";
 import {virusData} from "./virusData";
 import {MutationInfo} from "./MutationInfo";
 import {WHO} from "./WHO";
@@ -68,7 +68,7 @@ export default function Body() {
           <p>{post.changes}</p>
           <p>{post.description}</p>
           {virusData.COVID.variants.map((mutationEntry, index)=> <MutationInfo key={index} mutationEntry={mutationEntry}/>)}
-         
+         <Reference/>
         </div>
         <div class="pagefooter">
           <center>
