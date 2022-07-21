@@ -34,8 +34,8 @@ export default function Body() {
         <div className={styles.article}>
           <h1 className={styles.title}> {post.description2}</h1>
 
-          <p className={styles.siteSub}/> 
-<i><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1"> -World Health Organization</a></i>
+          <p className={styles.siteSub}></p>
+          {virusData.COVID.summary.map((mutationEntry, index)=> <MutationInfo key={index} mutationEntry={mutationEntry}/>)} <i><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1"> -World Health Organization</a></i>
           <p className={styles.roleNote}></p>
           <div className={styles.articleRight}>
             <div className={styles.articleRightInner}>
@@ -56,7 +56,7 @@ export default function Body() {
             <ul>
                 <li>
                 <span>1.0</span>
-                <HashLink smooth to="#D614G">
+                <HashLink smooth to= "#D614G">
                 D614G
                 </HashLink></li>
                 <li>
@@ -121,8 +121,8 @@ export default function Body() {
        
           <h1 id ="D614G">{post.variant}</h1>
           <p>{post.changes}</p>
-          <p>{post.description}</p>
-          {virusData.COVID.variants.map((mutationEntry, index)=> <MutationInfo key={index} mutationEntry={mutationEntry}/>)}
+          <p>{post.description}
+          {virusData.COVID.variants.map((mutationEntry, index)=> <MutationInfo key={index} mutationEntry={mutationEntry}/>)}</p>
         </div>
         <div class="pagefooter">
           <center>

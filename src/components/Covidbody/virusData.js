@@ -1,17 +1,24 @@
 import {Link} from 'react-router-dom';
+
 export const virusData = {
-  COVID: {
-    who:"Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age. The best way to prevent and slow down transmission is to be well informed about the disease and how the virus spreads. Protect yourself and others from infection by staying at least 1 metre apart from others, wearing a properly fitted mask, and washing your hands or using an alcohol-based rub frequently. Get vaccinated when it’s your turn and follow local guidance.The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory droplets to smaller aerosols. It is important to practice respiratory etiquette, for example by coughing into a flexed elbow, and to stay home and self-isolate until you recover if you feel unwell.",
+  COVID:{ 
+  summary: [
+  {
+     who:"Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age. The best way to prevent and slow down transmission is to be well informed about the disease and how the virus spreads. Protect yourself and others from infection by staying at least 1 metre apart from others, wearing a properly fitted mask, and washing your hands or using an alcohol-based rub frequently. Get vaccinated when it’s your turn and follow local guidance. The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory droplets to smaller aerosols. It is important to practice respiratory etiquette, for example by coughing into a flexed elbow, and to stay home and self-isolate until you recover if you feel unwell.",
+  }
+  ],
+      
       variants:[
         
   
     {
-          variations:<h4 id ="Alpha">Alpha</h4>,
+          
+          variations:  <variant id = "Alpha">Alpha</variant>,
           description: "To be clear, there is only one strain of SARS-CoV-2 but multiple variants. The first discovered was Alpha, which was the variant discovered in the UK in September 2020 but was not variationsd a Variant of Concern (VOC) by the WHO until December 18th, 2020 and was labeled Alpha on May 31st, 2021 when the new naming convention took over.",
           mutations:"B.1.1.7 variant, N501Y mutation, deletion on Spike at 69 & 70 position.",
         },
         {
-          variations:<h4 id ="Beta">Beta</h4>,
+          variations:<div id = "Beta">Beta</div>,
           description:"Originally discovered in South Africa with the earliest known sample dated May 2020 and labeled a VOC on Decenber 18th, 2020 by the WHO. ",
           mutations:"9 spike mutations along with D614G, 242-244 deletions & R246I mutation in NTD (N-terminal domain), K417N, E484K, & N501Y in RBD (Receptor-Binding Domain), A701V near furin cleavage site.",
         },
@@ -56,10 +63,15 @@ export const virusData = {
         {
           title: <h4 id ="References">References</h4>,
           description: <><ul> 1.Volz EM, Koelle K, Bedford T (2013) Viral Phylodynamics. <Link to= "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002947">PLOS Computational Biology 9(3): e1002947.</Link> 2.Mallapaty, S., 2022. Where did Omicron come from? Three key theories.  <Link to ="https://doi.org/10.1038/d41586-022-00215-2\r\n3.Desingu">[online] Nature.com.,</Link> 3.Desingu, Perumal A et al. “Emergence of Omicron third lineage BA.3 and its importance.” <i>Journal of medical virology vol. 94,5 (2022): 1808-1810. doi:10.1002/jmv.27601 </i>4.Wang, Qian et al. “Antibody evasion by SARS-CoV-2 Omicron subvariants BA.2.12.1, BA.4, & BA.5.” Nature, 10.1038/s41586-022-05053-w. <i>5 Jul. 2022, doi:10.1038/s41586-022-05053-w</i> 5.Callaway, E., 2022. What Omicron’s BA.4 and BA.5 variants mean for the pandemic. <Link to ="https://www.nature.com/articles/d41586-022-01730-y/">[online] Nature.com.</Link></ul></>, 
-         
-        },
         
+        },
+      
       ]
-    }
+      }
+    
+    
   }
+
+    
+  
 
