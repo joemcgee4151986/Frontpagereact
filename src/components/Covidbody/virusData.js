@@ -13,49 +13,49 @@ export const virusData = {
   
     {
           
-          variations:  <variant id = "Alpha">Alpha</variant>,
-          description: "To be clear, there is only one strain of SARS-CoV-2 but multiple variants. The first discovered was Alpha, which was the variant discovered in the UK in September 2020 but was not variationsd a Variant of Concern (VOC) by the WHO until December 18th, 2020 and was labeled Alpha on May 31st, 2021 when the new naming convention took over.",
+          variant:  <><variant id = "Alpha"/></>,
+          description: "To be clear, there is only one strain of SARS-CoV-2 but multiple variants. The first discovered was Alpha, which was the variant discovered in the UK in September 2020 but was not variantd a Variant of Concern (VOC) by the WHO until December 18th, 2020 and was labeled Alpha on May 31st, 2021 when the new naming convention took over.",
           mutations:"B.1.1.7 variant, N501Y mutation, deletion on Spike at 69 & 70 position.",
         },
         {
-          variations:<div id = "Beta">Beta</div>,
+          variant:<div id = "Beta">Beta</div>,
           description:"Originally discovered in South Africa with the earliest known sample dated May 2020 and labeled a VOC on Decenber 18th, 2020 by the WHO. ",
           mutations:"9 spike mutations along with D614G, 242-244 deletions & R246I mutation in NTD (N-terminal domain), K417N, E484K, & N501Y in RBD (Receptor-Binding Domain), A701V near furin cleavage site.",
         },
         {
-          variations: <h4 id = "Gamma">Gamma</h4>,
+          variant: <h4 id = "Gamma">Gamma</h4>,
           description:"This variant originated in Brazil with samples dating back to Nov 2020 and designation of a VOC coming January 11th, 2021 from the WHO and later designated Gamma.",
           mutations:"P.1 variant with notable mutations E484K, K417, and N501Y mutations in RBD, S1188L, K1795Q, and E5665D in ORF1ab (open reading frame), E92 in ORF8, P80K in N protein.",
       },
         {
-          variations: <h4 id ="Delta">Delta</h4>,
+          variant: <h4 id ="Delta">Delta</h4>,
           description: "The Delta variant was discovered in India in Oct 2020 and designated a VOC on May 11th, 2021 and the Delta designation May 31st, 2021. Many studies regarded this variant as more virulent, or its ability to cause damage to the host, such as a retrospective cohort study in Canada that suggested an elevated risk to hospitalization (52%), ICU admission (89%), and death (51%) for Alpha-Gamma and an elevated risk to hospitalization (108%), ICU admission (235%), and death (133%).",
           mutations:"B.1.617.2 with E484Q, T478K, & L425R mutations in the RBD. L452R stronger affinity of S protein to ACE2 receptor & P681R mutation at furin cleavage site may boost replication.",
         },
         {
-          variations: <h4 id ="Omicron BA.1">Omicron BA.1</h4>,
+          variant: <h4 id ="Omicron BA.1">Omicron BA.1</h4>,
           description: "This variant was discovered in multiple countries but South Africa had reported it first on November 24th, according to Reuters. On the 26th, it was declared a VOC by the WHO. As previously stated, BA.1 contained substantial changes to previous variants, from NTD to RBD domains. Mutations in the RBD such as G339D, N501Y, & N440K result in an increase in binding affinity to ACE2 receptors. Other changes like G446S, G496S, and S371L may result in changes on how antibodies bind to the RBD of SARS-CoV-2.",
          mutations:"B.1.1.529 with numerous RBD, NTD, subdomain, AND heptad-repeat domain changes.",
         
         },
         {
-          variations: <h4 id ="Omicron BA.1.1">Omicron BA.1.1</h4>,
+          variant: <h4 id ="Omicron BA.1.1">Omicron BA.1.1</h4>,
           description: "BA.1.1 is a sub-variant of BA.1, the original Omicron variant. More to come.",
           mutations:"RBD R346K mutation but otherwise similar to BA.1",
         },
         {
-          variations: <h4 id ="Omicron BA.2">Omicron BA.2</h4>,
+          variant: <h4 id ="Omicron BA.2">Omicron BA.2</h4>,
           description: "Like most variants, origins are unknown but as reported by the BBC, BA.2 was first detected in the Philippines in November, 2021. Results from a phylodynamic analysis of the sub-variants suggest. however, diversification of Omicron occurred around Gauteng Province of South Africa, meaning the sub-variants of BA.1, BA.1.1, BA.2, and BA.3 (the latest variant available to study by the authors)[1]",
    
           mutations:"Many mutations shared with other Omicron variants but specific ones include T19I, S371F and D405N, mainly in NTD and RBD.",
         },
         {
-          variations: <h4 id ="Omicron BA.3">Omicron BA.3</h4>,
+          variant: <h4 id ="Omicron BA.3">Omicron BA.3</h4>,
           description: "This variant was originally detected in the northwest portion of South Africa. BA.1, BA.2, and BA.3 have been detected at around the same time but did not take off as effectively as the other variants [3]",
           mutations:"A unique mutation with R214del (deletion) as compared to BA.1 and BA.2. [2]",
         },
         {
-          variations:<h4 id ="Omicron BA.4/5">Omicron BA.4/5</h4>,
+          variant:<h4 id ="Omicron BA.4/5">Omicron BA.4/5</h4>,
           description:"Currently becoming the dominant global sub-variant as of July, 2022. It is suggested that the reversion mutation R493Q lead to improved ACE2 binding affinity based on in vitro testing with pseudoviruses.[4] With immunization and infection profiles being different in every country, the effects of this variant will differ. In South Africa, hospitalization and death rates only had slight increases while Portugal experienced a larger increase in both rates. [5]",
           mutations:"Unique mutations in L452R and F486V and reversion mutation at Q493.",
         },

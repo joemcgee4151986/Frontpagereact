@@ -1,10 +1,10 @@
 export function MutationInfo({mutationEntry}){
 
-  const {variations,who, description, mutations, works_cited, Link, title,} = mutationEntry
+  const {variant,who, description, mutations, works_cited, Link, title,} = mutationEntry
 
   return (
     <div>
-      <h1 className="">{variations}</h1>
+      <h1 className="">{variant}</h1>
       <h1 className="">{title}</h1>
       <p className="">{mutations}</p>
       <p className="">{description}</p>
