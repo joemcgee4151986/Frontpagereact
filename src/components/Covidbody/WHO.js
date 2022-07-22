@@ -5,7 +5,6 @@ export function WHO({mutationEntry}){
     return (
       <div>
         <p className ="">{who}</p>
-      
       </div>
       
     )

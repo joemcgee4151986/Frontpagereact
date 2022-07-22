@@ -13,7 +13,7 @@ export const virusData = {
   
     {
           
-          variant:  <><variant id = "Alpha"/></>,
+          variant:  <><variant id = "Alpha"/>Alpha</>,
           description: "To be clear, there is only one strain of SARS-CoV-2 but multiple variants. The first discovered was Alpha, which was the variant discovered in the UK in September 2020 but was not variantd a Variant of Concern (VOC) by the WHO until December 18th, 2020 and was labeled Alpha on May 31st, 2021 when the new naming convention took over.",
           mutations:"B.1.1.7 variant, N501Y mutation, deletion on Spike at 69 & 70 position.",
         },
@@ -55,21 +55,18 @@ export const virusData = {
           mutations:"A unique mutation with R214del (deletion) as compared to BA.1 and BA.2. [2]",
         },
         {
-          variant:<h4 id ="Omicron BA.4/5">Omicron BA.4/5</h4>,
+          variant:<><title id ="Omicron BA.4/5"/>Omicron BA.4/5</>,
           description:"Currently becoming the dominant global sub-variant as of July, 2022. It is suggested that the reversion mutation R493Q lead to improved ACE2 binding affinity based on in vitro testing with pseudoviruses.[4] With immunization and infection profiles being different in every country, the effects of this variant will differ. In South Africa, hospitalization and death rates only had slight increases while Portugal experienced a larger increase in both rates. [5]",
           mutations:"Unique mutations in L452R and F486V and reversion mutation at Q493.",
         },
-        
         {
-          title: <h4 id ="References">References</h4>,
+          title: <><title id ="References"/>References</>,
           description: <><ul> 1.Volz EM, Koelle K, Bedford T (2013) Viral Phylodynamics. <Link to= "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002947">PLOS Computational Biology 9(3): e1002947.</Link> 2.Mallapaty, S., 2022. Where did Omicron come from? Three key theories.  <Link to ="https://doi.org/10.1038/d41586-022-00215-2\r\n3.Desingu">[online] Nature.com.,</Link> 3.Desingu, Perumal A et al. “Emergence of Omicron third lineage BA.3 and its importance.” <i>Journal of medical virology vol. 94,5 (2022): 1808-1810. doi:10.1002/jmv.27601 </i>4.Wang, Qian et al. “Antibody evasion by SARS-CoV-2 Omicron subvariants BA.2.12.1, BA.4, & BA.5.” Nature, 10.1038/s41586-022-05053-w. <i>5 Jul. 2022, doi:10.1038/s41586-022-05053-w</i> 5.Callaway, E., 2022. What Omicron’s BA.4 and BA.5 variants mean for the pandemic. <Link to ="https://www.nature.com/articles/d41586-022-01730-y/">[online] Nature.com.</Link></ul></>, 
         
         },
-      
+     
       ]
       }
-    
-    
   }
 
     
