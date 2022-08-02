@@ -17,7 +17,7 @@ export const virusData = {
           mutations:"B.1.1.7 variant, N501Y mutation, deletion on Spike at 69 & 70 position.",
         },
         {
-          variant:<div id = "Beta">Beta</div>,
+          variant:<><variant id = "Beta"/>Beta</>,
           description:"Originally discovered in South Africa with the earliest known sample dated May 2020 and labeled a VOC on Decenber 18th, 2020 by the WHO. ",
           mutations:"9 spike mutations along with D614G, 242-244 deletions & R246I mutation in NTD (N-terminal domain), K417N, E484K, & N501Y in RBD (Receptor-Binding Domain), A701V near furin cleavage site.",
         },
@@ -54,7 +54,7 @@ export const virusData = {
           mutations:"A unique mutation with R214del (deletion) as compared to BA.1 and BA.2. [2]",
         },
         {
-          variant:<><title id ="Omicron BA.4/5"/>Omicron BA.4/5</>,
+          variant:<><variant id ="Omicron BA.4/5"/>Omicron BA.4/5</>,
           description:"Currently becoming the dominant global sub-variant as of July, 2022. It is suggested that the reversion mutation R493Q lead to improved ACE2 binding affinity based on in vitro testing with pseudoviruses.[4] With immunization and infection profiles being different in every country, the effects of this variant will differ. In South Africa, hospitalization and death rates only had slight increases while Portugal experienced a larger increase in both rates. [5]",
           mutations:"Unique mutations in L452R and F486V and reversion mutation at Q493.",
         },
