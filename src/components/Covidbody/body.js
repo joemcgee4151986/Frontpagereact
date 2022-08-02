@@ -1,6 +1,6 @@
 import React from "react";
 import {virusData} from "./virusData";
-
+import {WHO} from "./WHO";
 import {MutationInfo} from "./MutationInfo";
 import styles from "./body.module.css";
 import axios from "axios";
@@ -35,7 +35,7 @@ export default function Body() {
           <h1 className={styles.title}> {post.description2}</h1>
 
           <p className={styles.siteSub}></p>
-          {virusData.COVID.summary.map((mutationEntry, index)=> <MutationInfo key={index} mutationEntry={mutationEntry}/>)} <i><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1"> -World Health Organization</a></i>
+          {virusData.COVID.summary.map((mutationEntry, index)=> <WHO key={index} mutationEntry={mutationEntry}/>)} <i><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1"> -World Health Organization</a></i>
           <p className={styles.roleNote}></p>
           <div className={styles.articleRight}>
             <div className={styles.articleRightInner}>
