@@ -1,5 +1,4 @@
 import {Link} from 'react-router-dom';
-
 export const virusData = {
   COVID:{ 
   summary: [
@@ -62,7 +61,11 @@ export const virusData = {
         
         {
           title: <h4 id ="References">References</h4>,
-          description: <><ul> 1.Volz EM, Koelle K, Bedford T (2013) Viral Phylodynamics. <Link to= "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002947">PLOS Computational Biology 9(3): e1002947.</Link> 2.Mallapaty, S., 2022. Where did Omicron come from? Three key theories.  <Link to ="https://doi.org/10.1038/d41586-022-00215-2\r\n3.Desingu">[online] Nature.com.,</Link> 3.Desingu, Perumal A et al. “Emergence of Omicron third lineage BA.3 and its importance.” <i>Journal of medical virology vol. 94,5 (2022): 1808-1810. doi:10.1002/jmv.27601 </i>4.Wang, Qian et al. “Antibody evasion by SARS-CoV-2 Omicron subvariants BA.2.12.1, BA.4, & BA.5.” Nature, 10.1038/s41586-022-05053-w. <i>5 Jul. 2022, doi:10.1038/s41586-022-05053-w</i> 5.Callaway, E., 2022. What Omicron’s BA.4 and BA.5 variants mean for the pandemic. <Link to ="https://www.nature.com/articles/d41586-022-01730-y/">[online] Nature.com.</Link></ul></>, 
+          description: <><ul><li>1.Volz EM, Koelle K, Bedford T (2013) Viral Phylodynamics. <Link to= "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002947">PLOS Computational Biology 9(3): e1002947.</Link></li>
+             <li>2.Mallapaty, S., 2022. Where did Omicron come from? Three key theories.  <Link to ="https://doi.org/10.1038/d41586-022-00215-2\r\n3.Desingu">[online] Nature.com.,</Link> </li>
+           <li>3.Desingu, Perumal A et al. “Emergence of Omicron third lineage BA.3 and its importance.” <i>Journal of medical virology vol. 94,5 (2022): 1808-1810. doi:10.1002/jmv.27601 </i></li>
+           <li>4.Wang, Qian et al. “Antibody evasion by SARS-CoV-2 Omicron subvariants BA.2.12.1, BA.4, & BA.5.” Nature, 10.1038/s41586-022-05053-w.</li> 
+           <li>5.<i>5 Jul. 2022, doi:10.1038/s41586-022-05053-w</i> 5.Callaway, E., 2022. What Omicron’s BA.4 and BA.5 variants mean for the pandemic. <Link to ="https://www.nature.com/articles/d41586-022-01730-y/">[online] Nature.com.</Link></li></ul></>, 
         
         },
       
