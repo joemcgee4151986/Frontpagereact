@@ -40,7 +40,7 @@ export default function Body() {
           <div className={styles.articleRight}>
             <div className={styles.articleRightInner}>
               <img
-                src="https://images-ext-2.discordapp.net/external/PvClCHOCVvaBOoAY2Zt-wEKOYowTCqF6p1RukB5PRAw/https/fcgj83z0eul3uqz2k1ej79r8-wpengine.netdna-ssl.com/wp-content/uploads/2021/03/original-vs-mutant-SARS-CoV-2-spike-protein.jpg"
+                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shepscenter.unc.edu%2F2020%2F04%2F06%2Fcovid-19-north-carolina-collaborative%2F&psig=AOvVaw0zXDACG2NAyaEVQnEbakri&ust=1670306687832000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDP5Lfn4fsCFQAAAAAdAAAAABAE"
                 alt="meteors"
               />
             </div>
