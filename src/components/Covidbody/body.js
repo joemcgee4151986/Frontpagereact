@@ -32,7 +32,7 @@ export default function Body() {
         </div>
 
         <div className={styles.article}>
-          <h1 className={styles.title}> {post.description2}</h1>
+                <h1 className={styles.title}>Covid-19 information</h1>
 
           <p className={styles.siteSub}></p>
           {virusData.COVID.summary.map((mutationEntry, index)=> <WHO key={index} mutationEntry={mutationEntry}/>)} <i><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1"> -World Health Organization</a></i>
