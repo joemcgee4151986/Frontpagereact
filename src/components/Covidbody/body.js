@@ -119,7 +119,7 @@ export default function Body() {
             </ul>
           </div>
        
-          <h3 id ="D614G">{post.variant}</h3>
+         
           <p>{post.changes}</p>
           <p>{post.description}
           {virusData.COVID.variants.map((mutationEntry, index)=> <MutationInfo key={index} mutationEntry={mutationEntry}/>)}</p>
