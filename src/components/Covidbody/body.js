@@ -55,11 +55,6 @@ export default function Body() {
             </div>
             <ul>
                 <li>
-                <span>1.0</span>
-                <HashLink smooth to= "#D614G">
-                D614G
-                </HashLink></li>
-                <li>
                 <span>1.1</span>
                 <HashLink smooth to="#Alpha">
                 Alpha
