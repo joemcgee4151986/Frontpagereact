@@ -5,7 +5,7 @@ import {MutationInfo} from "./MutationInfo";
 import styles from "./body.module.css";
 import axios from "axios";
 import { HashLink } from "react-router-hash-link";
-const baseURL = "https://desolate-sea-33600.herokuapp.com/virus/1";
+//const baseURL = "https://desolate-sea-33600.herokuapp.com/virus/1";
 
 export default function Body() {
   const [post, setPost,] = React.useState(null);
