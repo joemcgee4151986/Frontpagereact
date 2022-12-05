@@ -40,7 +40,7 @@ export default function Body() {
           <div className={styles.articleRight}>
             <div className={styles.articleRightInner}>
               <img
-                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shepscenter.unc.edu%2F2020%2F04%2F06%2Fcovid-19-north-carolina-collaborative%2F&psig=AOvVaw0zXDACG2NAyaEVQnEbakri&ust=1670306687832000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDP5Lfn4fsCFQAAAAAdAAAAABAE"
+                src="https://www.shepscenter.unc.edu/wp-content/uploads/2020/04/COVID-image-scaled.jpg"
                 alt="meteors"
               />
             </div>
