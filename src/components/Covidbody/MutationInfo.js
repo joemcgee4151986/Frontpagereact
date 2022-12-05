@@ -4,7 +4,7 @@ export function MutationInfo({mutationEntry}){
 
   return (
     <div>
-      <h1 className="">{variant}</h1>
+      <h3 className="">{variant}</h3>
       <h1 className="">{title}</h1>
       <p className="">{mutations}</p>
       <p className="">{description}</p>

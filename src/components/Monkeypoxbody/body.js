@@ -19,10 +19,6 @@ export default function Body() {
  
         
 return (
-   
-  
-      
-      
           <div>
             <div className={styles.mainsection}>
               <div className={styles.headerLinks}></div>

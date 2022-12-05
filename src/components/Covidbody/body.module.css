@@ -109,7 +109,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 }
 .article h3 {
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 1.7em;
+	border-bottom: 1px solid #a2a9b1;
 }
 .article p.roleNote {
 	padding: 1em 0 0 1.6em;
@@ -144,7 +145,7 @@ div.articleRightInner {
 	margin-right: auto;
 }
 .article {
-	padding: 1.25em 1.5em 1.5em 1.5em;
+	padding: .1em 1.5em 1.5em 1.5em;
 	border-left: 1px solid #a7d7f9;
 	background: #FFF;
 	line-height: 1.6;

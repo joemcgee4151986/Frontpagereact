@@ -5,7 +5,7 @@ import {MutationInfo} from "./MutationInfo";
 import styles from "./body.module.css";
 import axios from "axios";
 import { HashLink } from "react-router-hash-link";
-const baseURL = "";
+const baseURL = "https://catfact.ninja/fact?max_length=140";
 
 export default function Body() {
   const [post, setPost,] = React.useState(null);
@@ -30,10 +30,10 @@ export default function Body() {
             <ul></ul>
           </div>
         </div>
-
+       
         <div className={styles.article}>
-                <h1 className={styles.title}>Covid-19 information</h1>
-
+                <h1 className={styles.heading}>Covid-19 information</h1>
+                
           <p className={styles.siteSub}></p>
           {virusData.COVID.summary.map((mutationEntry, index)=> <WHO key={index} mutationEntry={mutationEntry}/>)} <i><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1"> -World Health Organization</a></i>
           <p className={styles.roleNote}></p>
@@ -119,7 +119,7 @@ export default function Body() {
             </ul>
           </div>
        
-          <h1 id ="D614G">{post.variant}</h1>
+          <h3 id ="D614G">{post.variant}</h3>
           <p>{post.changes}</p>
           <p>{post.description}
           {virusData.COVID.variants.map((mutationEntry, index)=> <MutationInfo key={index} mutationEntry={mutationEntry}/>)}</p>
@@ -142,4 +142,3 @@ export default function Body() {
     </div>
   );
 }  
-
